@@ -5,6 +5,11 @@
   "data_name": "ck-request-validated-results",
   "dict": {
     "shared": "git",
-    "url": "https://github.com/ctuning/ck-request-validated-results"
+    "url": "https://github.com/ctuning/ck-request-validated-results",
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-request"
+      }
+    ]
   }
 }
