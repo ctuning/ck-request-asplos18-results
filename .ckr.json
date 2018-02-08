@@ -1,0 +1,10 @@
+{
+  "data_uoa": "ck-request-validated-results",
+  "data_uid": "f2be9b14e67b8b23",
+  "data_alias": "ck-request-validated-results",
+  "data_name": "ck-request-validated-results",
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-request-validated-results"
+  }
+}
