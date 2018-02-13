@@ -27,7 +27,7 @@ stack for AI, deep learning and other emerging workloads.
 * [Image classification using Caffe on Intel-based servers](https://github.com/ctuning/ck-request-asplos18-caffe-intel)
 
 <!-------------------------------------------------------------------------------------->
-# Reproducing/validating results
+# Reproducing and validating results
 
 <!-------------------------------------------------------------------------------------->
 ## Prerequisites
