@@ -24,6 +24,7 @@ stack for AI, deep learning and other emerging workloads.
 # Ongoing evaluation
 
 * [Image classification using ArmCL with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
+* [Image classification using Caffe on Intel-based servers](https://github.com/ctuning/ck-request-asplos18-caffe-intel)
 
 <!-------------------------------------------------------------------------------------->
 # Reproducing/validating results
