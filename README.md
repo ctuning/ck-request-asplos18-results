@@ -23,7 +23,7 @@ stack for AI, deep learning and other emerging workloads.
 <!-------------------------------------------------------------------------------------->
 # Ongoing evaluation
 
-* [image classification using ArmCL with OpenCL on HiKey 960](ck-request-asplos18-mobilenets-armcl-opencl)
+* [Image classification using ArmCL with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
 
 <!-------------------------------------------------------------------------------------->
 # Reproducing/validating results
