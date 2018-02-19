@@ -7,6 +7,9 @@
     "shared": "git",
     "url": "https://github.com/ctuning/ck-request-asplos18-results",
     "repo_deps": [
+      {
+        "repo_uoa": "ck-request"
+      }
     ]
   }
 }
