@@ -6,15 +6,8 @@
 # Introduction
 
 This repository contains validated results in [the CK format](https://github.com/ctuning/ck)
-from the [1st ACM ReQuEST tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
-on algorithm/software/hardware co-design of Pareto-efficient 
-image classification at ASPLOS'18.
-
-See [ReQuEST website](http://cKnowledge.org/request) 
-and [arXiv report](https://arxiv.org/pdf/1801.06378.pdf) 
-for more details about our open and reproducible tournaments
-on Pareto-efficient co-design of the whole software and hardware
-stack for AI, deep learning and other emerging workloads.
+from the [ReQuEST@ASPLOS'18 tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
+on reproducible SW/HW co-design of various algorithms.
 
 <!-------------------------------------------------------------------------------------->
 # Validated submissions
