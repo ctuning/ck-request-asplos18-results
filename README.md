@@ -21,22 +21,3 @@ on reproducible SW/HW co-design of various algorithms.
 3. [Image classification using ArmCL with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
 4. [Image classification using MxNet/TVM/NNVM on ARM GPU](https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm)
 5. [Image classification using TVM on FPGA](https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga)
-
-<!-------------------------------------------------------------------------------------->
-# Reproducing and validating results
-
-<!-------------------------------------------------------------------------------------->
-## Prerequisites
-
-* Collective Knowledge Framework: see [minimal installation guidelines](https://github.com/ctuning/ck#minimal-installation)
-
-<!-------------------------------------------------------------------------------------->
-## Installation
-
-Note that *#* means *sudo* on Linux and can be skipped on Windows.
-
-
-```
-# pip install ck
-$ ck pull repo:ck-request-asplos18-results
-```
