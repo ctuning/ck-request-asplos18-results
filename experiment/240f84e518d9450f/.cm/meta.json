@@ -127,6 +127,7 @@
     "gpgpu_vendor": "ARM",
     "gpu_name": "",
     "host_os_uid": "4258b5fe54828a50",
+    "model_precision": "fp32",
     "model_species": "07d4e7aa3750ddc6",
     "opencl": "OpenCL C 2.0 v1.r6p0-01rel0.24c5f5e966f2b7f1f19b91d6f32ff53e",
     "os_name": "Debian GNU/Linux 9 (stretch)",

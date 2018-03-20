@@ -4842,6 +4842,7 @@
   ],
   "##features#compiler_version#str#min": "7.2.0",
   "##features#compiler_version#str#repeats": 50,
+  "##features#cpu_freq#min": "807",
   "##features#gpgpu@0#gpgpu#name#all": [
     "Mali-G71",
     "Mali-G71",
@@ -18943,6 +18944,7 @@
   ],
   "##features#gpgpu@0#gpgpu_misc#work-item dimensions#min": "3",
   "##features#gpgpu@0#gpgpu_misc#work-item dimensions#repeats": 50,
+  "##features#gpu_freq#min": "",
   "##features#model_size#min": 17106694,
   "##features#number_of_selected_compiler_flags#all": [
     0,
