@@ -82682,7 +82682,6 @@
   "##features#compiler_version#str#repeats": 5,
   "##features#cpu_freq#min": 2600,
   "##features#freq#min": 2600,
-  "##features#gpu_freq#min": 1100,
   "##features#model_size#min": 95533753,
   "##features#number_of_selected_compiler_flags#all": [
     0,
