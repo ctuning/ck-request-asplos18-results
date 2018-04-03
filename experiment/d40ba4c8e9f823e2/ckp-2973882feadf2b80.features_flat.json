@@ -1,4 +1,0 @@
-{
-  "##choices#env#CK_CAFFE_BATCH_SIZE": "8", 
-  "##choices#env#OMP_NUM_THREADS": 10
-}
