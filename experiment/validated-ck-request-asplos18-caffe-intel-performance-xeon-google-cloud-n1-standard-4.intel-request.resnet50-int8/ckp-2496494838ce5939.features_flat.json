@@ -1,0 +1,4 @@
+{
+  "##choices#env#CK_CAFFE_BATCH_SIZE": "64", 
+  "##choices#env#OMP_NUM_THREADS": 4
+}
