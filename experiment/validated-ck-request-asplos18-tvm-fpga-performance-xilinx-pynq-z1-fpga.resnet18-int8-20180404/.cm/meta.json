@@ -1,0 +1,215 @@
+{
+  "added": {
+    "engine": "CK",
+    "iso_datetime": "2018-04-11T09:37:34.725093",
+    "version": [
+      "1",
+      "9",
+      "4",
+      "1"
+    ]
+  },
+  "meta": {
+    "algorithm_species": "4b8bbc192ec57f63",
+    "artifact": "9375838469ad4029",
+    "cpu_abi": "",
+    "cpu_name": "Programmable logic equivalent to Artix-7 FPGA",
+    "cpu_uid": "",
+    "dataset_size": 2000,
+    "dataset_species": "ImageNet",
+    "deps_summary": {
+      "lib-nnvm": {
+        "data_name": "NNVM library",
+        "deps": {
+          "compiler": {
+            "data_name": "LLVM compiler",
+            "deps": {
+              "mvsc": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "microsoft C compiler",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "microsoft,compiler",
+                "version": ""
+              },
+              "ndk-gcc": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "Android NDK GCC",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "compiler,gcc,ndk",
+                "version": ""
+              }
+            },
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Compiler",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-c,lang-cpp,llvm,target-os-linux-64,v5,v5.0,v5.0.0,v5.0.0.0,v5.0.0.0.4,v5.0.0.0.4.1",
+            "package_uoa": "",
+            "tags": "compiler, lang-c",
+            "version": "5.0.0-3~16.04.1"
+          },
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v2,v2.7,v2.7.12",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "2.7.12"
+          }
+        },
+        "git_iso_datetime_cut_revision": "20180220-541cf56",
+        "git_revision": "541cf56",
+        "name": "NNVM library",
+        "package_tags": "64bits,compiled-by-llvm,compiled-by-llvm-5.0.0-3~16.04.1,host-os-linux-64,lib,nnvm,target-os-linux-64,v0,v0.0,vmaster,vsources",
+        "package_uoa": "3558b44a58d64aa6",
+        "tags": "lib,nnvm",
+        "version": "master-541cf56"
+      },
+      "lib-tvm": {
+        "data_name": "TVM library",
+        "deps": {
+          "compiler": {
+            "data_name": "LLVM compiler",
+            "deps": {
+              "mvsc": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "microsoft C compiler",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "microsoft,compiler",
+                "version": ""
+              },
+              "ndk-gcc": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "Android NDK GCC",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "compiler,gcc,ndk",
+                "version": ""
+              }
+            },
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "LLVM compiler",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-c,lang-cpp,llvm,target-os-linux-64,v5,v5.0,v5.0.0,v5.0.0.0,v5.0.0.0.4,v5.0.0.0.4.1",
+            "package_uoa": "",
+            "tags": "compiler, lang-c, llvm",
+            "version": "5.0.0-3~16.04.1"
+          },
+          "host-compiler": {
+            "data_name": "",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Compiler",
+            "package_tags": "",
+            "package_uoa": "",
+            "tags": "compiler, lang-c",
+            "version": ""
+          },
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v2,v2.7,v2.7.12",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "2.7.12"
+          }
+        },
+        "git_iso_datetime_cut_revision": "20180220-e4c2af9",
+        "git_revision": "e4c2af9",
+        "name": "TVM library",
+        "package_tags": "64bits,compiled-by-llvm,compiled-by-llvm-5.0.0-3~16.04.1,compiled-by-unknown_host-compiler,host-os-linux-64,lib,target-os-linux-64,tvm,v0,v0.0,vcpu,vmaster,vsources",
+        "package_uoa": "fdda38b07c848ec8",
+        "tags": "lib,tvm",
+        "version": "master-e4c2af9"
+      },
+      "lib-vta": {
+        "data_name": "VTA python library",
+        "deps": {
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v2,v2.7,v2.7.12",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "2.7.12"
+          }
+        },
+        "git_iso_datetime_cut_revision": "20180322-9ad9277",
+        "git_revision": "9ad9277",
+        "name": "VTA library",
+        "package_tags": "64bits,host-os-linux-64,lib,target-os-linux-64,v0,v0.0,vmaster,vpython,vta-python",
+        "package_uoa": "704dc1923176c706",
+        "tags": "lib,vta-python",
+        "version": "master-9ad9277"
+      },
+      "model": {
+        "data_name": "VTA model (net and weights) (resnet 18, int8, 20180404)",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "VTA model (net and weights)",
+        "package_tags": "64bits,channel-stable,host-os-linux-64,resenet,resnet18,target-os-linux-64,v20180404,vint8,vtamodel,weights",
+        "package_uoa": "345c4a4420d02c60",
+        "tags": "vtamodel",
+        "version": "20180404"
+      }
+    },
+    "farm": "",
+    "gpgpu_name": "",
+    "gpgpu_vendor": "",
+    "gpu_name": "",
+    "host_os_uid": "4258b5fe54828a50",
+    "model_design_name": "VTA model (net and weights) (resnet 18, int8, 20180404) 20180404",
+    "model_precision": "int8",
+    "model_species": "d41bbf1e489ab5e0",
+    "opencl": "",
+    "os_name": "Ubuntu 15.10",
+    "os_uid": "",
+    "plat_name": "Xilinx PYNQ-Z1 FPGA (ZYNQ XC7Z020-1CLG400C)",
+    "plat_uid": "",
+    "platform_peak_power": 2.5,
+    "platform_price": 229,
+    "platform_price_date": "20180404",
+    "platform_species": "fpga",
+    "processed": "yes",
+    "repo_cmd": "ck pull repo:ck-request-asplos18-resnet-tvm-fpga",
+    "repo_uid": "3344889dba78837b",
+    "repo_uoa": "ck-request-asplos18-resnet-tvm-fpga",
+    "report_uid": "9375838469ad4029",
+    "request_version": 1,
+    "scenario_module_uoa": "a555738be4b65860",
+    "stimestamp": "20180411093533",
+    "target_device_id": "",
+    "target_os_uid": "4258b5fe54828a50",
+    "timestamp": "2018-04-11T09:35:33"
+  },
+  "pipeline_uid": "b0ac08fe1d3c2615",
+  "pipeline_uoa": "program",
+  "points": "1",
+  "subview_uoa": "f84ca49f79a1446a",
+  "tags": [
+    "request",
+    "request-asplos18",
+    "2018-04-11T09:35:33",
+    "20180411093533",
+    "4b8bbc192ec57f63",
+    "request-tvm-vta-pynq",
+    "resnet18-int8-20180404",
+    "xilinx-pynq-z1-fpga"
+  ]
+}
