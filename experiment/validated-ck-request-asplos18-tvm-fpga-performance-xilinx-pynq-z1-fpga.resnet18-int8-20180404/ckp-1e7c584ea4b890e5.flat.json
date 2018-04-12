@@ -358,6 +358,9 @@
   "##characteristics#run#prediction_time_avg_s#all": [
     0.432114263,
     0.429266214,
+    0.4294162558,
+    0.432114263,
+    0.429266214,
     0.4294162558
   ],
   "##characteristics#run#prediction_time_avg_s#all_unique": [
@@ -366,12 +369,12 @@
     0.4294162558
   ],
   "##characteristics#run#prediction_time_avg_s#center": 0.4306902385,
-  "##characteristics#run#prediction_time_avg_s#exp": 0.4298991137777778,
+  "##characteristics#run#prediction_time_avg_s#exp": 0.43024433183838384,
   "##characteristics#run#prediction_time_avg_s#exp_allx": [
-    0.4298991137777778
+    0.43024433183838384
   ],
   "##characteristics#run#prediction_time_avg_s#exp_ally": [
-    2.032978435402089
+    3.0042453064598114
   ],
   "##characteristics#run#prediction_time_avg_s#exp_warning": "no",
   "##characteristics#run#prediction_time_avg_s#halfrange": 0.0014240245000000096,
@@ -380,7 +383,7 @@
   "##characteristics#run#prediction_time_avg_s#min": 0.429266214,
   "##characteristics#run#prediction_time_avg_s#range": 0.002848049000000019,
   "##characteristics#run#prediction_time_avg_s#range_percent": 0.006634691730013532,
-  "##characteristics#run#prediction_time_avg_s#repeats": 3,
+  "##characteristics#run#prediction_time_avg_s#repeats": 6,
   "##characteristics#run#repeat#all": [
     1,
     1,
@@ -1044,10 +1047,10 @@
   "##features#dataset#width#range": 0,
   "##features#dataset#width#range_percent": 0,
   "##features#dataset#width#repeats": 3,
-  "##features#freq#min": 500,
-  "##features#gpu_freq#min": 500,
+  "##features#freq#min": 100,
+  "##features#gpu_freq#min": 100,
   "##features#measuring_latency#min": "yes",
-  "##features#model_size#min": 129770,
+  "##features#model_size#min": 129770000,
   "##features#number_of_selected_compiler_flags#all": [
     0,
     0,
