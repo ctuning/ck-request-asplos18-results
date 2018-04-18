@@ -1,0 +1,713 @@
+{
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "compute_device_id": "0", 
+    "compute_platform_id": "0", 
+    "cpu_freq": "max", 
+    "data_uoa": "mobilenets-armcl-opencl", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CK_BATCHES_DIR": "../batches", 
+      "CK_BATCH_COUNT": 1, 
+      "CK_BATCH_LIST": "../batches", 
+      "CK_BATCH_SIZE": 1, 
+      "CK_COMPUTE_DEVICE_ID": "0", 
+      "CK_COMPUTE_PLATFORM_ID": "0", 
+      "CK_CONVOLUTION_METHOD_HINT": 1, 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_DATASET_IMAGENET_VAL": "/home/fursin/CK/local/env/6b7b8b5d320f99fa/", 
+      "CK_ENV_MOBILENET_RESOLUTION": 224, 
+      "CK_ENV_MOBILENET_WIDTH_MULTIPLIER": 1.0, 
+      "CK_GPU_FREQUENCY": "max", 
+      "CK_IMAGE_FILE": "", 
+      "CK_IMAGE_LIST": "../images", 
+      "CK_PREPARE_ALWAYS": "NO", 
+      "CK_RESULTS_DIR": "predictions", 
+      "CK_SKIP_IMAGES": 0
+    }, 
+    "flags": "-O3", 
+    "gpu_freq": "max", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "no", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "", 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##choices#env#CK_BATCH_SIZE", 
+    "##choices#env#CK_CONVOLUTION_METHOD_HINT", 
+    "##choices#env#CK_ENV_MOBILENET_RESOLUTION", 
+    "##choices#env#CK_ENV_MOBILENET_WIDTH_MULTIPLIER"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        7, 
+        2, 
+        0
+      ], 
+      "raw": [
+        "gcc (Ubuntu/Linaro 7.2.0-1ubuntu1~16.04) 7.2.0", 
+        "Copyright (C) 2017 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "7.2.0"
+    }, 
+    "gpgpu": [
+      {
+        "gpgpu": {
+          "name": "Mali-T860", 
+          "type": "opencl", 
+          "vendor": "ARM"
+        }, 
+        "gpgpu_deps": {
+          "compiler": {
+            "bat": ". /home/fursin/CK/local/env/37f92184481a045c/env.sh\n", 
+            "build_dir_name": "gcc", 
+            "choices": [
+              "37f92184481a045c", 
+              "8d5437a8d0417da5"
+            ], 
+            "cus": {
+              "add_only_with_version": "yes", 
+              "add_to_path": "yes", 
+              "build_dir_name": "gcc", 
+              "can_strip_dynamic_lib": "yes", 
+              "check_that_exists": "yes", 
+              "ck_version": 10, 
+              "env_prefix": "CK_ENV_COMPILER_GCC", 
+              "full_path": "/usr/bin/gcc", 
+              "languages": [
+                "C", 
+                "CPP"
+              ], 
+              "limit_recursion_dir_search": {
+                "linux": 3, 
+                "win": 4
+              }, 
+              "only_for_target_os_tags": [
+                "mingw", 
+                "windows", 
+                "linux"
+              ], 
+              "retarget": "no", 
+              "search_numeric_ext_on_linux": "yes", 
+              "skip_path": "yes", 
+              "soft_file": {
+                "linux": "gcc", 
+                "win": "gcc.exe"
+              }, 
+              "soft_file_from_host_os": "yes", 
+              "soft_path_example": {
+                "linux": "/usr/bin/gcc", 
+                "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe"
+              }, 
+              "soft_version_cmd": {
+                "linux": "--version > $#filename#$ 2>&1", 
+                "win": " --version > $#filename#$ 2>&1"
+              }, 
+              "sort": 100, 
+              "tool_postfix": "", 
+              "tool_postfix_configured": "yes", 
+              "tool_prefix": "", 
+              "tool_prefix_configured": "yes", 
+              "version": "7.2.0", 
+              "version_split": [
+                7, 
+                2, 
+                0
+              ]
+            }, 
+            "detected_ver": "7.2.0", 
+            "dict": {
+              "customize": {
+                "add_only_with_version": "yes", 
+                "add_to_path": "yes", 
+                "build_dir_name": "gcc", 
+                "can_strip_dynamic_lib": "yes", 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "env_prefix": "CK_ENV_COMPILER_GCC", 
+                "full_path": "/usr/bin/gcc", 
+                "languages": [
+                  "C", 
+                  "CPP"
+                ], 
+                "limit_recursion_dir_search": {
+                  "linux": 3, 
+                  "win": 4
+                }, 
+                "only_for_target_os_tags": [
+                  "mingw", 
+                  "windows", 
+                  "linux"
+                ], 
+                "retarget": "no", 
+                "search_numeric_ext_on_linux": "yes", 
+                "skip_path": "yes", 
+                "soft_file": {
+                  "linux": "gcc", 
+                  "win": "gcc.exe"
+                }, 
+                "soft_file_from_host_os": "yes", 
+                "soft_path_example": {
+                  "linux": "/usr/bin/gcc", 
+                  "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe"
+                }, 
+                "soft_version_cmd": {
+                  "linux": "--version > $#filename#$ 2>&1", 
+                  "win": " --version > $#filename#$ 2>&1"
+                }, 
+                "sort": 100, 
+                "tool_postfix": "", 
+                "tool_postfix_configured": "yes", 
+                "tool_prefix": "", 
+                "tool_prefix_configured": "yes", 
+                "version": "7.2.0", 
+                "version_split": [
+                  7, 
+                  2, 
+                  0
+                ]
+              }, 
+              "data_name": "GNU C compiler", 
+              "deps": {}, 
+              "env": {
+                "CK_AR": "ar", 
+                "CK_ASM_EXT": ".s", 
+                "CK_CC": "gcc", 
+                "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                "CK_COMPILER_FLAG_CPP14": "-std=c++14", 
+                "CK_COMPILER_FLAG_CPP1Z": "-std=c++1z", 
+                "CK_COMPILER_FLAG_GPROF": "-pg", 
+                "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                "CK_COMPILER_POSTFIX": "", 
+                "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                "CK_CXX": "g++", 
+                "CK_DLL_EXT": ".so", 
+                "CK_ENV_COMPILER_GCC": "/usr", 
+                "CK_ENV_COMPILER_GCC_LIB": "/usr/lib/gcc/aarch64-linux-gnu/7", 
+                "CK_EXE_EXT": ".out", 
+                "CK_EXTRA_LIB_DL": "-ldl", 
+                "CK_EXTRA_LIB_M": "-lm", 
+                "CK_FLAGS_CREATE_ASM": "-S", 
+                "CK_FLAGS_CREATE_OBJ": "-c", 
+                "CK_FLAGS_DLL": "-shared -fPIC", 
+                "CK_FLAGS_DLL_EXTRA": "", 
+                "CK_FLAGS_DYNAMIC_BIN": " ", 
+                "CK_FLAGS_OUTPUT": "-o ", 
+                "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                "CK_FLAG_PREFIX_VAR": "-D", 
+                "CK_GPROF_OUT_FILE": "gmon.out", 
+                "CK_LB": "ar rcs", 
+                "CK_LB_OUTPUT": "-o ", 
+                "CK_LD": "ld", 
+                "CK_LD_FLAGS_EXTRA": "", 
+                "CK_LIB_EXT": ".a", 
+                "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                "CK_MAKE": "make", 
+                "CK_OBJDUMP": "objdump -d", 
+                "CK_OBJ_EXT": ".o", 
+                "CK_OPT_ALL_WARNINGS": "-Wall", 
+                "CK_OPT_SIZE": "-Os", 
+                "CK_OPT_SPEED": "-O3", 
+                "CK_OPT_SPEED_SAFE": "-O2", 
+                "CK_OPT_UNWIND": " ", 
+                "CK_PLUGIN_FLAG": "-fplugin=", 
+                "CK_PROFILER": "gprof", 
+                "CK_RANLIB": "ranlib"
+              }, 
+              "env_script": "env.sh", 
+              "setup": {
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_bits": "64", 
+                "target_os_uoa": "4258b5fe54828a50", 
+                "version": "7.2.0", 
+                "version_split": [
+                  7, 
+                  2, 
+                  0
+                ]
+              }, 
+              "soft_alias": "compiler.gcc", 
+              "soft_uoa": "3a8a82fa40bf992d", 
+              "tags": [
+                "64bits", 
+                "compiler", 
+                "gcc", 
+                "host-os-linux-64", 
+                "lang-c", 
+                "lang-cpp", 
+                "target-os-linux-64", 
+                "v7", 
+                "v7.2", 
+                "v7.2.0"
+              ]
+            }, 
+            "local": "yes", 
+            "name": "C compiler", 
+            "num_entries": 1, 
+            "sort": 10, 
+            "tags": "compiler,lang-c", 
+            "uoa": "37f92184481a045c", 
+            "ver": "7.2.0"
+          }, 
+          "lib-opencl": {
+            "bat": ". /home/fursin/CK/local/env/b657cfe4e7cba9da/env.sh\n", 
+            "choices": [
+              "b657cfe4e7cba9da"
+            ], 
+            "cus": {
+              "check_that_exists": "yes", 
+              "ck_version": 10, 
+              "dynamic_lib": "libOpenCL.so", 
+              "env_prefix": "CK_ENV_LIB_OPENCL", 
+              "full_path": "/usr/lib/aarch64-linux-gnu/libOpenCL.so", 
+              "include_name": "CL/opencl.h", 
+              "limit_recursion_dir_search": {
+                "linux": 4, 
+                "win": 4
+              }, 
+              "path_bin": "/usr/bin", 
+              "path_include": "/usr/include", 
+              "path_lib": "/usr/lib/aarch64-linux-gnu", 
+              "skip_path": "yes", 
+              "soft_file": {
+                "linux": "libOpenCL.so", 
+                "win": "OpenCL.lib"
+              }, 
+              "soft_path_example": {
+                "linux": "/usr/lib/libOpenCL.so", 
+                "win": "C:\\Program Files (x86)\\Intel\\OpenCL SDK\\4.6\\lib\\x64\\OpenCL.lib"
+              }, 
+              "static_lib": "libOpenCL.so"
+            }, 
+            "dict": {
+              "customize": {
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "dynamic_lib": "libOpenCL.so", 
+                "env_prefix": "CK_ENV_LIB_OPENCL", 
+                "full_path": "/usr/lib/aarch64-linux-gnu/libOpenCL.so", 
+                "include_name": "CL/opencl.h", 
+                "limit_recursion_dir_search": {
+                  "linux": 4, 
+                  "win": 4
+                }, 
+                "path_bin": "/usr/bin", 
+                "path_include": "/usr/include", 
+                "path_lib": "/usr/lib/aarch64-linux-gnu", 
+                "skip_path": "yes", 
+                "soft_file": {
+                  "linux": "libOpenCL.so", 
+                  "win": "OpenCL.lib"
+                }, 
+                "soft_path_example": {
+                  "linux": "/usr/lib/libOpenCL.so", 
+                  "win": "C:\\Program Files (x86)\\Intel\\OpenCL SDK\\4.6\\lib\\x64\\OpenCL.lib"
+                }, 
+                "static_lib": "libOpenCL.so"
+              }, 
+              "data_name": "OpenCL library", 
+              "deps": {}, 
+              "env": {
+                "CK_ENV_LIB_OPENCL": "/usr", 
+                "CK_ENV_LIB_OPENCL_DYNAMIC_NAME": "libOpenCL.so", 
+                "CK_ENV_LIB_OPENCL_INCLUDE_NAME": "CL/opencl.h", 
+                "CK_ENV_LIB_OPENCL_STATIC_NAME": "libOpenCL.so"
+              }, 
+              "env_script": "env.sh", 
+              "setup": {
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_bits": "64", 
+                "target_os_uoa": "4258b5fe54828a50", 
+                "version": "", 
+                "version_split": []
+              }, 
+              "soft_alias": "lib.opencl", 
+              "soft_uoa": "6eb9a57038688ad3", 
+              "tags": [
+                "64bits", 
+                "host-os-linux-64", 
+                "lib", 
+                "opencl", 
+                "target-os-linux-64"
+              ]
+            }, 
+            "local": "yes", 
+            "name": "OpenCL library", 
+            "num_entries": 1, 
+            "sort": 20, 
+            "tags": "lib,opencl", 
+            "uoa": "b657cfe4e7cba9da"
+          }
+        }, 
+        "gpgpu_id": {
+          "gpgpu_device_id": "0", 
+          "gpgpu_platform_id": "0"
+        }, 
+        "gpgpu_misc": {
+          "- max work-item size #0": "256", 
+          "- max work-item size #1": "256", 
+          "- max work-item size #2": "256", 
+          "address bits": "64", 
+          "hardware (device) version": "OpenCL 1.2 v1.r13p0-00rel0-git(a4271c9).31ba04af2d3c01618138bef3aed66c2c", 
+          "opencl c version": "OpenCL C 1.2 v1.r13p0-00rel0-git(a4271c9).31ba04af2d3c01618138bef3aed66c2c", 
+          "parallel compute units": "4", 
+          "software (driver) version": "1.2", 
+          "unified memory": "yes", 
+          "work-item dimensions": "3"
+        }
+      }
+    ], 
+    "number_of_selected_compiler_flags": 0, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            408000, 
+            600000, 
+            816000, 
+            1008000, 
+            1200000, 
+            1416000
+          ], 
+          "1": [
+            408000, 
+            600000, 
+            816000, 
+            1008000, 
+            1200000, 
+            1416000
+          ], 
+          "2": [
+            408000, 
+            600000, 
+            816000, 
+            1008000, 
+            1200000, 
+            1416000
+          ], 
+          "3": [
+            408000, 
+            600000, 
+            816000, 
+            1008000, 
+            1200000, 
+            1416000
+          ], 
+          "4": [
+            408000, 
+            600000, 
+            816000, 
+            1008000, 
+            1200000, 
+            1416000, 
+            1608000, 
+            1800000
+          ], 
+          "5": [
+            408000, 
+            600000, 
+            816000, 
+            1008000, 
+            1200000, 
+            1416000, 
+            1608000, 
+            1800000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+        "current_freq": {
+          "0": 1416.0, 
+          "1": 1416.0, 
+          "2": 1416.0, 
+          "3": 1416.0, 
+          "4": 1800.0, 
+          "5": 1800.0
+        }, 
+        "max_freq": {
+          "0": 1416.0, 
+          "1": 1416.0, 
+          "2": 1416.0, 
+          "3": 1416.0, 
+          "4": 1800.0, 
+          "5": 1800.0
+        }, 
+        "name": "", 
+        "num_proc": "6", 
+        "sub_name": "", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0, 
+              0, 
+              0, 
+              0, 
+              1, 
+              1
+            ], 
+            "core_names": [
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd08-2", 
+              "0x41-8-0x0-0xd08-2"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1416.0, 
+          "max_freq": 1416.0, 
+          "new_format": "yes", 
+          "processor": "0"
+        }, 
+        "1": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1416.0, 
+          "max_freq": 1416.0, 
+          "new_format": "yes", 
+          "processor": "1"
+        }, 
+        "2": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1416.0, 
+          "max_freq": 1416.0, 
+          "new_format": "yes", 
+          "processor": "2"
+        }, 
+        "3": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1416.0, 
+          "max_freq": 1416.0, 
+          "new_format": "yes", 
+          "processor": "3"
+        }, 
+        "4": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd08", 
+          "CPU revision": "2", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd08-2", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1800.0, 
+          "max_freq": 1800.0, 
+          "new_format": "yes", 
+          "processor": "4"
+        }, 
+        "5": {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd08", 
+          "CPU revision": "2", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "Serial": "0000000000000000", 
+          "all_freqs": [
+            "5", 
+            "5", 
+            "5", 
+            "5", 
+            "5", 
+            "5", 
+            "5", 
+            "5"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd08-2", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1800.0, 
+          "max_freq": 1800.0, 
+          "new_format": "yes", 
+          "processor": "5"
+        }
+      }, 
+      "cpu_new_format": "yes", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1416.0, 
+          "max_freq": 1416.0, 
+          "new_format": "yes", 
+          "processor": "0"
+        }, 
+        {
+          "BogoMIPS": "48.00", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd08", 
+          "CPU revision": "2", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd08-2", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1800.0, 
+          "max_freq": 1800.0, 
+          "new_format": "yes", 
+          "processor": "4"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "aarch64", 
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "Ubuntu 16.04.4 LTS", 
+        "name_long": "Linux-4.4.77-aarch64-with-Ubuntu-16.04-xenial", 
+        "name_short": "Linux 4.4.77", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "Rockchip RK3399 Firefly Board (Linux Opensource)\u0000", 
+        "name": "Rockchip (Rockchip RK3399 Firefly Board (Linux Opensource)\u0000)", 
+        "vendor": "Rockchip"
+      }, 
+      "platform_misc": {}
+    }, 
+    "statistical_repetitions": 10
+  }, 
+  "sub_points": 1
+}

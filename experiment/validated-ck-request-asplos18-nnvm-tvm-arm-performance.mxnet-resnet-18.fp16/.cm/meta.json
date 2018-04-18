@@ -1,0 +1,351 @@
+{
+  "added": {
+    "engine": "CK",
+    "iso_datetime": "2018-04-17T21:36:06.908665",
+    "version": [
+      "1",
+      "9",
+      "4"
+    ]
+  },
+  "meta": {
+    "algorithm_species": "4b8bbc192ec57f63",
+    "artifact": "08da9685582866a0",
+    "compiler_name": "GNU C compiler 7.2.0",
+    "cpu_abi": "",
+    "cpu_name": "0x41-8-0x0-0xd03-4 ; 0x41-8-0x0-0xd08-2",
+    "cpu_uid": "",
+    "dataset_size": 25000,
+    "dataset_species": "ImageNet",
+    "deps_summary": {
+      "lib-mxnet": {
+        "data_name": "MXNet library (built, cpu)",
+        "deps": {
+          "compiler": {
+            "data_name": "GNU C compiler",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "GCC compiler",
+            "package_tags": "64bits,compiler,gcc,host-os-linux-64,lang-c,lang-cpp,target-os-linux-64,v7,v7.2,v7.2.0",
+            "package_uoa": "",
+            "tags": "compiler, gcc",
+            "version": "7.2.0"
+          },
+          "lib-openblas": {
+            "data_name": "OpenBLAS library",
+            "deps": {
+              "compiler": {
+                "data_name": "GNU C compiler",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "C compiler",
+                "package_tags": "64bits,compiler,gcc,host-os-linux-64,lang-c,lang-cpp,target-os-linux-64,v7,v7.2,v7.2.0",
+                "package_uoa": "",
+                "tags": "compiler,lang-c",
+                "version": "7.2.0"
+              },
+              "compiler-gfortran": {
+                "data_name": "GNU Fortran compiler",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "GNU Fortran compiler",
+                "package_tags": "64bits,compiler,fortran,gfortran,host-os-linux-64,lang-f77,lang-f90,lang-f95,target-os-linux-64,v7,v7.2,v7.2.0",
+                "package_uoa": "",
+                "tags": "compiler,gfortran",
+                "version": "7.2.0"
+              },
+              "compiler-mingw": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "C compiler",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "compiler,lang-c,gcc",
+                "version": ""
+              },
+              "compiler-perl": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "Perl",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "compiler,perl",
+                "version": ""
+              },
+              "utils-unix-win": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "Unix Utils for Windows",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "utils,unix-win",
+                "version": ""
+              }
+            },
+            "git_iso_datetime_cut_revision": "20160412-12ab180",
+            "git_revision": "12ab180",
+            "name": "Openblas library",
+            "package_tags": "64bits,blas,cblas,channel-stable,compiled-by-gcc,compiled-by-gcc-7.2.0,host-os-linux-64,lib,needs-unknown_compiler-mingw,openblas,target-os-linux-64,v0,v0.2,v0.2.18,v0.2.18.0",
+            "package_uoa": "43c3a4969e08adc8",
+            "tags": "lib,openblas",
+            "version": "0.2.18-12ab180"
+          },
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v3,v3.5,v3.5.2",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "3.5.2"
+          }
+        },
+        "git_iso_datetime_cut_revision": "20180412-fb50257",
+        "git_revision": "fb50257",
+        "name": "MXNet library",
+        "package_tags": "64bits,compiled-by-gcc,compiled-by-gcc-7.2.0,host-os-linux-64,lib,mxnet,mxnet-cpu,target-os-linux-64,v0,v0.0,vcpu,vmaster,vsource",
+        "package_uoa": "f5d35e3d45fbb07b",
+        "tags": "lib,mxnet,vcpu",
+        "version": "master-fb50257"
+      },
+      "lib-nnvm-tvm": {
+        "data_name": "NNVM library",
+        "deps": {
+          "compiler": {
+            "data_name": "LLVM compiler",
+            "deps": {
+              "mvsc": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "microsoft C compiler",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "microsoft,compiler",
+                "version": ""
+              },
+              "ndk-gcc": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "Android NDK GCC",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "compiler,gcc,ndk",
+                "version": ""
+              }
+            },
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "LLVM compiler",
+            "package_tags": "64bits,channel-stable,compiler,host-os-linux-64,lang-c,lang-cpp,llvm,target-os-linux-64,v5,v5.0,v5.0.1,v5.0.1-ck-package",
+            "package_uoa": "681cb69f28832498",
+            "tags": "compiler, lang-c, llvm",
+            "version": "5.0.1"
+          },
+          "lib-opencl": {
+            "data_name": "OpenCL library",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "OpenCL library",
+            "package_tags": "64bits,host-os-linux-64,lib,opencl,target-os-linux-64",
+            "package_uoa": "",
+            "tags": "lib,opencl",
+            "version": ""
+          },
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v3,v3.5,v3.5.2",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "3.5.2"
+          }
+        },
+        "git_iso_datetime_cut_revision": "20180409-69c5ebb",
+        "git_revision": "69c5ebb",
+        "name": "NNVM TVM library",
+        "package_tags": "64bits,compiled-by-llvm,compiled-by-llvm-5.0.1,host-os-linux-64,lib,nnvm,nnvm-tvm,target-os-linux-64,v0,v0.0,vgpu,vmaster,vopencl,vsources",
+        "package_uoa": "159da5435e84a0b8",
+        "tags": "lib,nnvm,nnvm-tvm,vgpu",
+        "version": "master-69c5ebb"
+      },
+      "mxnet-model": {
+        "data_name": "MXNet model (net and weights) (mxnet, resnet-18)",
+        "deps": {
+          "lib-mxnet": {
+            "data_name": "MXNet library (built, cpu)",
+            "deps": {
+              "compiler": {
+                "data_name": "GNU C compiler",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "GCC compiler",
+                "package_tags": "64bits,compiler,gcc,host-os-linux-64,lang-c,lang-cpp,target-os-linux-64,v7,v7.2,v7.2.0",
+                "package_uoa": "",
+                "tags": "compiler, gcc",
+                "version": "7.2.0"
+              },
+              "lib-openblas": {
+                "data_name": "OpenBLAS library",
+                "deps": {
+                  "compiler": {
+                    "data_name": "GNU C compiler",
+                    "git_iso_datetime_cut_revision": "",
+                    "git_revision": "",
+                    "name": "C compiler",
+                    "package_tags": "64bits,compiler,gcc,host-os-linux-64,lang-c,lang-cpp,target-os-linux-64,v7,v7.2,v7.2.0",
+                    "package_uoa": "",
+                    "tags": "compiler,lang-c",
+                    "version": "7.2.0"
+                  },
+                  "compiler-gfortran": {
+                    "data_name": "GNU Fortran compiler",
+                    "git_iso_datetime_cut_revision": "",
+                    "git_revision": "",
+                    "name": "GNU Fortran compiler",
+                    "package_tags": "64bits,compiler,fortran,gfortran,host-os-linux-64,lang-f77,lang-f90,lang-f95,target-os-linux-64,v7,v7.2,v7.2.0",
+                    "package_uoa": "",
+                    "tags": "compiler,gfortran",
+                    "version": "7.2.0"
+                  },
+                  "compiler-mingw": {
+                    "data_name": "",
+                    "git_iso_datetime_cut_revision": "",
+                    "git_revision": "",
+                    "name": "C compiler",
+                    "package_tags": "",
+                    "package_uoa": "",
+                    "tags": "compiler,lang-c,gcc",
+                    "version": ""
+                  },
+                  "compiler-perl": {
+                    "data_name": "",
+                    "git_iso_datetime_cut_revision": "",
+                    "git_revision": "",
+                    "name": "Perl",
+                    "package_tags": "",
+                    "package_uoa": "",
+                    "tags": "compiler,perl",
+                    "version": ""
+                  },
+                  "utils-unix-win": {
+                    "data_name": "",
+                    "git_iso_datetime_cut_revision": "",
+                    "git_revision": "",
+                    "name": "Unix Utils for Windows",
+                    "package_tags": "",
+                    "package_uoa": "",
+                    "tags": "utils,unix-win",
+                    "version": ""
+                  }
+                },
+                "git_iso_datetime_cut_revision": "20160412-12ab180",
+                "git_revision": "12ab180",
+                "name": "Openblas library",
+                "package_tags": "64bits,blas,cblas,channel-stable,compiled-by-gcc,compiled-by-gcc-7.2.0,host-os-linux-64,lib,needs-unknown_compiler-mingw,openblas,target-os-linux-64,v0,v0.2,v0.2.18,v0.2.18.0",
+                "package_uoa": "43c3a4969e08adc8",
+                "tags": "lib,openblas",
+                "version": "0.2.18-12ab180"
+              },
+              "python": {
+                "data_name": "python",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "Python",
+                "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v3,v3.5,v3.5.2",
+                "package_uoa": "",
+                "tags": "compiler,python",
+                "version": "3.5.2"
+              }
+            },
+            "git_iso_datetime_cut_revision": "20180412-fb50257",
+            "git_revision": "fb50257",
+            "name": "MXNet library",
+            "package_tags": "64bits,compiled-by-gcc,compiled-by-gcc-7.2.0,host-os-linux-64,lib,mxnet,mxnet-cpu,target-os-linux-64,v0,v0.0,vcpu,vmaster,vsource",
+            "package_uoa": "f5d35e3d45fbb07b",
+            "tags": "lib,mxnet",
+            "version": "master-fb50257"
+          },
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v3,v3.5,v3.5.2",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "3.5.2"
+          }
+        },
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "MXNet model",
+        "package_tags": "64bits,channel-stable,host-os-linux-64,mxnetmodel,resnet,resnet-18,target-os-linux-64,v0,v0.18",
+        "package_uoa": "855d41e02d341cc9",
+        "tags": "mxnetmodel",
+        "version": "resnet-18"
+      },
+      "python": {
+        "data_name": "python",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "python",
+        "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v3,v3.5,v3.5.2",
+        "package_uoa": "",
+        "tags": "compiler,lang-python,python",
+        "version": "3.5.2"
+      }
+    },
+    "farm": "",
+    "gpgpu_name": "",
+    "gpgpu_vendor": "",
+    "gpu_name": "",
+    "host_os_uid": "4258b5fe54828a50",
+    "library_name": "MXNet library (built, cpu) master-fb50257 (fb50257)",
+    "model_design_name": "MXNet model (net and weights) (mxnet, resnet-18) resnet-18",
+    "model_precision": "fp16",
+    "model_species": "d41bbf1e489ab5e0",
+    "opencl": "",
+    "os_name": "Ubuntu 16.04.4 LTS",
+    "os_uid": "",
+    "plat_name": "Rockchip (Rockchip RK3399 Firefly Board (Linux Opensource)\u0000)",
+    "plat_uid": "",
+    "platform_peak_power": 6.05,
+    "platform_price": 149,
+    "platform_price_date": "20180416",
+    "platform_species": "embedded",
+    "processed": "yes",
+    "repo_cmd": "ck pull repo:ck-request-asplos18-mobilenets-tvm-arm",
+    "repo_uid": "c47366a47958ef4b",
+    "repo_uoa": "ck-request-asplos18-mobilenets-tvm-arm",
+    "report_uid": "8b220a7f172a47d4",
+    "request_version": 1,
+    "scenario_module_uoa": "a555738be4b65860",
+    "stimestamp": "20180417213103",
+    "target_device_id": "",
+    "target_os_uid": "4258b5fe54828a50",
+    "timestamp": "2018-04-17T21:31:03"
+  },
+  "pipeline_uid": "b0ac08fe1d3c2615",
+  "pipeline_uoa": "program",
+  "points": "1",
+  "subview_uoa": "f84ca49f79a1446a",
+  "tags": [
+    "request",
+    "request-asplos18",
+    "2018-04-17T21:31:03",
+    "20180417213103",
+    "4b8bbc192ec57f63",
+    "performance",
+    "explore-mxnet-performance",
+    "master-69c5ebb",
+    "firefly-rk3399"
+  ]
+}

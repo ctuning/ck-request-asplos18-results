@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "dced4840aef7b1f1",
+  "backup_module_uid": "bc0409fb61f0aa82",
+  "backup_module_uoa": "experiment",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2018-04-18T10:08:58.899873",
+    "version": [
+      "1",
+      "9",
+      "4",
+      "1"
+    ]
+  },
+  "data_name": "validated-ck-request-asplos18-nnvm-tvm-arm-performance.mxnet-resnet-18.fp16"
+}

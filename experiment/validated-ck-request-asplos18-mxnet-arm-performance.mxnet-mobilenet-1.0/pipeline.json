@@ -1,0 +1,2086 @@
+{
+  "tmp_dir": "", 
+  "features": {
+    "compiler_version": {
+      "raw": "", 
+      "list": [], 
+      "str": ""
+    }
+  }, 
+  "characteristics": {}, 
+  "no_clean": "no", 
+  "no_compile": "no", 
+  "choices": {
+    "cpu_freq": "max", 
+    "no_state_check": "yes", 
+    "target": "", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "dataset_uoa": "image-jpeg-dnn-snake-224", 
+    "energy": "no", 
+    "skip_print_timers": "yes", 
+    "dataset_file": "snake.jpg", 
+    "device_id": "", 
+    "cmd_key": "classify", 
+    "skip_calibration": "yes", 
+    "env": {
+      "STAT_REPEAT": 5
+    }, 
+    "target_os_bits": "64", 
+    "flags": "-O3", 
+    "compile_type": "dynamic", 
+    "data_uoa": "request-mxnet-inference", 
+    "host_os": "linux-64", 
+    "target_os": "linux-64", 
+    "gpu_freq": "max"
+  }, 
+  "state": {
+    "tmp_dir": "tmp", 
+    "cur_dir": "/home/fursin/CK/ck-request-asplos18-mobilenets-tvm-arm/script/benchmark-request-tvm-arm"
+  }, 
+  "dependencies": {
+    "python": {
+      "sort": 8, 
+      "for_run_time": "yes", 
+      "bat": ". /home/fursin/CK/local/env/89e3f8babf4b69ba/env.sh\n", 
+      "cus": {
+        "soft_version_cmd": {
+          "win": "--version > $#filename#$ 2>&1", 
+          "linux": "--version > $#filename#$ 2>&1"
+        }, 
+        "only_for_host_os_tags": [
+          "windows", 
+          "linux"
+        ], 
+        "build_dir_name": "python", 
+        "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+        "skip_path": "yes", 
+        "only_for_target_os_tags": [
+          "windows", 
+          "android", 
+          "linux"
+        ], 
+        "languages": [
+          "PYTHON"
+        ], 
+        "soft_file": {
+          "win": "python*.exe", 
+          "linux": "python*"
+        }, 
+        "version": "3.5.2", 
+        "soft_file_from_host_os": "yes", 
+        "add_only_with_version": "yes", 
+        "version_split": [
+          3, 
+          5, 
+          2
+        ], 
+        "limit_recursion_dir_search": {
+          "win": 4, 
+          "linux": 3
+        }, 
+        "check_that_exists": "yes", 
+        "ck_version": 10, 
+        "full_path": "/usr/bin/python3"
+      }, 
+      "name": "python", 
+      "tags": "compiler,lang-python,python", 
+      "build_dir_name": "python", 
+      "num_entries": 1, 
+      "choices": [
+        "89e3f8babf4b69ba"
+      ], 
+      "detected_ver": "3.5.2", 
+      "uoa": "89e3f8babf4b69ba", 
+      "dict": {
+        "data_name": "python", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "compiler", 
+          "host-os-linux-64", 
+          "lang-python", 
+          "python", 
+          "target-os-linux-64", 
+          "v3", 
+          "v3.5", 
+          "v3.5.2"
+        ], 
+        "customize": {
+          "soft_version_cmd": {
+            "win": "--version > $#filename#$ 2>&1", 
+            "linux": "--version > $#filename#$ 2>&1"
+          }, 
+          "only_for_host_os_tags": [
+            "windows", 
+            "linux"
+          ], 
+          "build_dir_name": "python", 
+          "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+          "skip_path": "yes", 
+          "only_for_target_os_tags": [
+            "windows", 
+            "android", 
+            "linux"
+          ], 
+          "languages": [
+            "PYTHON"
+          ], 
+          "soft_file": {
+            "win": "python*.exe", 
+            "linux": "python*"
+          }, 
+          "version": "3.5.2", 
+          "soft_file_from_host_os": "yes", 
+          "add_only_with_version": "yes", 
+          "version_split": [
+            3, 
+            5, 
+            2
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 4, 
+            "linux": 3
+          }, 
+          "check_that_exists": "yes", 
+          "ck_version": 10, 
+          "full_path": "/usr/bin/python3"
+        }, 
+        "setup": {
+          "version_split": [
+            3, 
+            5, 
+            2
+          ], 
+          "target_os_bits": "64", 
+          "version": "3.5.2", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "soft_uoa": "45d68512df22fde7", 
+        "env": {
+          "CK_PY_OBJ_EXT": ".pyc", 
+          "CK_ENV_COMPILER_PYTHON": "/usr", 
+          "CK_PYTHON_VER3": "YES", 
+          "CK_ENV_COMPILER_PYTHON_BIN": "/usr/bin", 
+          "CK_PYTHON_PIP_BIN_FULL": "/usr/bin/pip3", 
+          "CK_PY_RT": "python", 
+          "CK_ENV_COMPILER_PYTHON_FILE": "/usr/bin/python3", 
+          "CK_PYTHON_BIN": "python3", 
+          "CK_PYC": "python", 
+          "CK_PYTHON_PIP_BIN": "pip3"
+        }, 
+        "soft_alias": "compiler.python"
+      }, 
+      "ver": "3.5.2", 
+      "local": "yes"
+    }, 
+    "lib-mxnet": {
+      "sort": 10, 
+      "for_run_time": "yes", 
+      "bat": ". /home/fursin/CK/local/env/626b4531b71015ef/env.sh\n", 
+      "ver": "master-fb50257", 
+      "name": "MXNet library", 
+      "tags": "lib,mxnet,vcpu", 
+      "num_entries": 1, 
+      "package_uoa": "f5d35e3d45fbb07b", 
+      "uoa": "626b4531b71015ef", 
+      "dict": {
+        "data_name": "MXNet library (built, cpu)", 
+        "deps": {
+          "python": {
+            "detected_ver": "3.5.2", 
+            "sort": 5, 
+            "bat": ". /home/fursin/CK/local/env/89e3f8babf4b69ba/env.sh\n", 
+            "ver": "3.5.2", 
+            "name": "Python", 
+            "tags": "compiler,python", 
+            "build_dir_name": "python", 
+            "uoa": "89e3f8babf4b69ba", 
+            "choices": [
+              "89e3f8babf4b69ba"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "compiler", 
+                "host-os-linux-64", 
+                "lang-python", 
+                "python", 
+                "target-os-linux-64", 
+                "v3", 
+                "v3.5", 
+                "v3.5.2"
+              ], 
+              "customize": {
+                "soft_version_cmd": {
+                  "win": "--version > $#filename#$ 2>&1", 
+                  "linux": "--version > $#filename#$ 2>&1"
+                }, 
+                "only_for_host_os_tags": [
+                  "windows", 
+                  "linux"
+                ], 
+                "build_dir_name": "python", 
+                "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+                "skip_path": "yes", 
+                "only_for_target_os_tags": [
+                  "windows", 
+                  "android", 
+                  "linux"
+                ], 
+                "languages": [
+                  "PYTHON"
+                ], 
+                "soft_file": {
+                  "win": "python*.exe", 
+                  "linux": "python*"
+                }, 
+                "version": "3.5.2", 
+                "soft_file_from_host_os": "yes", 
+                "add_only_with_version": "yes", 
+                "version_split": [
+                  3, 
+                  5, 
+                  2
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 3
+                }, 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "full_path": "/usr/bin/python3"
+              }, 
+              "setup": {
+                "version_split": [
+                  3, 
+                  5, 
+                  2
+                ], 
+                "target_os_bits": "64", 
+                "version": "3.5.2", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "python", 
+              "soft_uoa": "45d68512df22fde7", 
+              "env": {
+                "CK_ENV_COMPILER_PYTHON_FILE": "/usr/bin/python3", 
+                "CK_ENV_COMPILER_PYTHON": "/usr", 
+                "CK_PYTHON_VER3": "YES", 
+                "CK_ENV_COMPILER_PYTHON_BIN": "/usr/bin", 
+                "CK_PYTHON_PIP_BIN_FULL": "/usr/bin/pip3", 
+                "CK_PY_RT": "python", 
+                "CK_PY_OBJ_EXT": ".pyc", 
+                "CK_PYTHON_BIN": "python3", 
+                "CK_PYC": "python", 
+                "CK_PYTHON_PIP_BIN": "pip3"
+              }, 
+              "soft_alias": "compiler.python"
+            }, 
+            "local": "yes"
+          }, 
+          "lib-openblas": {
+            "sort": 11, 
+            "bat": ". /home/fursin/CK/local/env/a878479b97141c0a/env.sh\n", 
+            "ver": "0.2.18-12ab180", 
+            "name": "Openblas library", 
+            "tags": "lib,openblas", 
+            "uoa": "a878479b97141c0a", 
+            "choices": [
+              "a878479b97141c0a"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "compiler-mingw": {
+                  "skip_installed": {
+                    "win": "yes"
+                  }, 
+                  "only_for_host_os_tags": [
+                    "windows"
+                  ], 
+                  "skip_from_bat": "yes", 
+                  "tags": "compiler,lang-c,gcc", 
+                  "sort": 5, 
+                  "add_to_path": "yes", 
+                  "force_target_as_host": "yes", 
+                  "local": "yes", 
+                  "name": "C compiler"
+                }, 
+                "compiler": {
+                  "detected_ver": "7.2.0", 
+                  "sort": 10, 
+                  "bat": ". /home/fursin/CK/local/env/37f92184481a045c/env.sh\n", 
+                  "ver": "7.2.0", 
+                  "name": "C compiler", 
+                  "tags": "compiler,lang-c", 
+                  "build_dir_name": "gcc", 
+                  "uoa": "37f92184481a045c", 
+                  "only_for_target_os_tags": [
+                    "android", 
+                    "linux"
+                  ], 
+                  "choices": [
+                    "37f92184481a045c", 
+                    "8d5437a8d0417da5"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "gcc", 
+                      "host-os-linux-64", 
+                      "lang-c", 
+                      "lang-cpp", 
+                      "target-os-linux-64", 
+                      "v7", 
+                      "v7.2", 
+                      "v7.2.0"
+                    ], 
+                    "customize": {
+                      "tool_postfix": "", 
+                      "can_strip_dynamic_lib": "yes", 
+                      "build_dir_name": "gcc", 
+                      "skip_path": "yes", 
+                      "tool_prefix_configured": "yes", 
+                      "tool_prefix": "", 
+                      "tool_postfix_configured": "yes", 
+                      "env_prefix": "CK_ENV_COMPILER_GCC", 
+                      "soft_version_cmd": {
+                        "win": " --version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                        "linux": "/usr/bin/gcc"
+                      }, 
+                      "languages": [
+                        "C", 
+                        "CPP"
+                      ], 
+                      "version": "7.2.0", 
+                      "soft_file_from_host_os": "yes", 
+                      "sort": 100, 
+                      "soft_file": {
+                        "win": "gcc.exe", 
+                        "linux": "gcc"
+                      }, 
+                      "retarget": "no", 
+                      "search_numeric_ext_on_linux": "yes", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        7, 
+                        2, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "only_for_target_os_tags": [
+                        "mingw", 
+                        "windows", 
+                        "linux"
+                      ], 
+                      "full_path": "/usr/bin/gcc"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        7, 
+                        2, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "7.2.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GNU C compiler", 
+                    "soft_uoa": "3a8a82fa40bf992d", 
+                    "env": {
+                      "CK_FLAGS_DYNAMIC_BIN": " ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_AR": "ar", 
+                      "CK_COMPILER_POSTFIX": "", 
+                      "CK_PROFILER": "gprof", 
+                      "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                      "CK_LIB_EXT": ".a", 
+                      "CK_OPT_SIZE": "-Os", 
+                      "CK_OPT_SPEED": "-O3", 
+                      "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                      "CK_CC": "gcc", 
+                      "CK_RANLIB": "ranlib", 
+                      "CK_EXE_EXT": ".out", 
+                      "CK_COMPILER_FLAG_GPROF": "-pg", 
+                      "CK_OPT_ALL_WARNINGS": "-Wall", 
+                      "CK_LB_OUTPUT": "-o ", 
+                      "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                      "CK_FLAG_PREFIX_VAR": "-D", 
+                      "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                      "CK_EXTRA_LIB_M": "-lm", 
+                      "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                      "CK_COMPILER_FLAG_CPP1Z": "-std=c++1z", 
+                      "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                      "CK_FLAGS_CREATE_OBJ": "-c", 
+                      "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                      "CK_GPROF_OUT_FILE": "gmon.out", 
+                      "CK_OPT_UNWIND": " ", 
+                      "CK_OBJ_EXT": ".o", 
+                      "CK_COMPILER_FLAG_CPP14": "-std=c++14", 
+                      "CK_FLAGS_OUTPUT": "-o ", 
+                      "CK_FLAGS_DLL_EXTRA": "", 
+                      "CK_MAKE": "make", 
+                      "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                      "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                      "CK_PLUGIN_FLAG": "-fplugin=", 
+                      "CK_DLL_EXT": ".so", 
+                      "CK_CXX": "g++", 
+                      "CK_ASM_EXT": ".s", 
+                      "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                      "CK_LD_FLAGS_EXTRA": "", 
+                      "CK_OBJDUMP": "objdump -d", 
+                      "CK_OPT_SPEED_SAFE": "-O2", 
+                      "CK_ENV_COMPILER_GCC_LIB": "/usr/lib/gcc/aarch64-linux-gnu/7", 
+                      "CK_FLAGS_DLL": "-shared -fPIC", 
+                      "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                      "CK_ENV_COMPILER_GCC": "/usr", 
+                      "CK_EXTRA_LIB_DL": "-ldl", 
+                      "CK_LB": "ar rcs", 
+                      "CK_LD": "ld", 
+                      "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                      "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                      "CK_FLAGS_CREATE_ASM": "-S"
+                    }, 
+                    "soft_alias": "compiler.gcc"
+                  }, 
+                  "local": "yes"
+                }, 
+                "utils-unix-win": {
+                  "sort": 1, 
+                  "only_for_host_os_tags": [
+                    "windows"
+                  ], 
+                  "skip_from_bat": "yes", 
+                  "tags": "utils,unix-win", 
+                  "force_target_as_host": "yes", 
+                  "local": "yes", 
+                  "name": "Unix Utils for Windows"
+                }, 
+                "compiler-gfortran": {
+                  "detected_ver": "7.2.0", 
+                  "sort": 15, 
+                  "bat": ". /home/fursin/CK/local/env/40e67120f334a7bb/env.sh\n", 
+                  "ver": "7.2.0", 
+                  "name": "GNU Fortran compiler", 
+                  "tags": "compiler,gfortran", 
+                  "build_dir_name": "gfortran", 
+                  "uoa": "40e67120f334a7bb", 
+                  "only_for_target_os_tags": [
+                    "windows", 
+                    "linux"
+                  ], 
+                  "choices": [
+                    "40e67120f334a7bb"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "fortran", 
+                      "gfortran", 
+                      "host-os-linux-64", 
+                      "lang-f77", 
+                      "lang-f90", 
+                      "lang-f95", 
+                      "target-os-linux-64", 
+                      "v7", 
+                      "v7.2", 
+                      "v7.2.0"
+                    ], 
+                    "customize": {
+                      "tool_postfix": "-7", 
+                      "can_strip_dynamic_lib": "yes", 
+                      "build_dir_name": "gfortran", 
+                      "skip_path": "yes", 
+                      "tool_prefix_configured": "yes", 
+                      "tool_prefix": "", 
+                      "tool_postfix_configured": "yes", 
+                      "env_prefix": "CK_ENV_COMPILER_GFORTRAN", 
+                      "soft_version_cmd": {
+                        "win": " --version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gfortran.exe", 
+                        "linux": "/usr/bin/gfortran"
+                      }, 
+                      "languages": [
+                        "F77", 
+                        "F90", 
+                        "F95"
+                      ], 
+                      "version": "7.2.0", 
+                      "soft_file_from_host_os": "yes", 
+                      "sort": 100, 
+                      "soft_file": {
+                        "win": "gfortran.exe", 
+                        "linux": "gfortran"
+                      }, 
+                      "retarget": "no", 
+                      "search_numeric_ext_on_linux": "yes", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        7, 
+                        2, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "only_for_target_os_tags": [
+                        "mingw", 
+                        "windows", 
+                        "linux"
+                      ], 
+                      "full_path": "/usr/bin/gfortran-7"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        7, 
+                        2, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "7.2.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GNU Fortran compiler", 
+                    "soft_uoa": "504d7e807c7b3146", 
+                    "env": {
+                      "CK_FLAGS_DYNAMIC_BIN": " ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_AR": "ar", 
+                      "CK_COMPILER_POSTFIX": "-7", 
+                      "CK_PROFILER": "gprof", 
+                      "CK_ENV_COMPILER_GFORTRAN": "/usr", 
+                      "CK_LIB_EXT": ".a", 
+                      "CK_OPT_SIZE": "-Os", 
+                      "CK_OPT_SPEED": "-O3", 
+                      "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                      "CK_EXE_EXT": ".out", 
+                      "CK_COMPILER_FLAG_GPROF": "-pg", 
+                      "CK_OPT_ALL_WARNINGS": "-Wall", 
+                      "CK_LB_OUTPUT": "-o ", 
+                      "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                      "CK_FLAG_PREFIX_VAR": "-D", 
+                      "CK_EXTRA_LIB_M": "-lm", 
+                      "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                      "CK_FLAGS_CREATE_OBJ": "-c", 
+                      "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                      "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                      "CK_OPT_UNWIND": " ", 
+                      "CK_OBJ_EXT": ".o", 
+                      "CK_FLAGS_OUTPUT": "-o ", 
+                      "CK_LB": "ar rcs", 
+                      "CK_MAKE": "make", 
+                      "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                      "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                      "CK_PLUGIN_FLAG": "-fplugin=", 
+                      "CK_OPT_SPEED_SAFE": "-O2", 
+                      "CK_DLL_EXT": ".so", 
+                      "CK_ASM_EXT": ".s", 
+                      "CK_FC": "gfortran-7", 
+                      "CK_LD_FLAGS_EXTRA": "", 
+                      "CK_OBJDUMP": "objdump -d", 
+                      "CK_F95": "gfortran-7", 
+                      "CK_F90": "gfortran-7", 
+                      "CK_FLAGS_DLL_EXTRA": "", 
+                      "CK_FLAGS_DLL": "-shared -fPIC", 
+                      "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                      "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                      "CK_EXTRA_LIB_DL": "-ldl", 
+                      "CK_GPROF_OUT_FILE": "gmon.out", 
+                      "CK_LD": "ld", 
+                      "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                      "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                      "CK_FLAGS_CREATE_ASM": "-S"
+                    }, 
+                    "soft_alias": "compiler.gfortran"
+                  }, 
+                  "local": "yes", 
+                  "skip_from_bat": "yes"
+                }, 
+                "compiler-perl": {
+                  "skip_installed": {
+                    "win": "yes"
+                  }, 
+                  "only_for_host_os_tags": [
+                    "windows"
+                  ], 
+                  "skip_from_bat": "yes", 
+                  "tags": "compiler,perl", 
+                  "sort": 3, 
+                  "force_target_as_host": "yes", 
+                  "local": "yes", 
+                  "name": "Perl"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "blas", 
+                "cblas", 
+                "channel-stable", 
+                "compiled-by-gcc", 
+                "compiled-by-gcc-7.2.0", 
+                "host-os-linux-64", 
+                "lib", 
+                "needs-unknown_compiler-mingw", 
+                "openblas", 
+                "target-os-linux-64", 
+                "v0", 
+                "v0.2", 
+                "v0.2.18", 
+                "v0.2.18.0"
+              ], 
+              "customize": {
+                "git_src_dir": "src", 
+                "use_git_revision": "yes", 
+                "skip_path": "yes", 
+                "extra_dir": "", 
+                "env_prefix": "CK_ENV_LIB_OPENBLAS", 
+                "used_package_uid": "43c3a4969e08adc8", 
+                "used_package_uoa": "lib-openblas-0.2.18-universal", 
+                "soft_path_example": {
+                  "linux": "/usr/lib/libopenblas.so"
+                }, 
+                "static_lib": "libopenblas.a", 
+                "version": "0.2.18-12ab180", 
+                "path_lib": "/home/fursin/CK/local/env/a878479b97141c0a/install/lib", 
+                "install_env": {
+                  "PACKAGE_SKIP_CMAKE_TARGET": "YES", 
+                  "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "6", 
+                  "CK_HOST_OS_ID": "linux", 
+                  "PACKAGE_SKIP_CLEAN_INSTALL": "NO", 
+                  "PACKAGE_GIT": "YES", 
+                  "PACKAGE_AUTOGEN": "NO", 
+                  "CK_TARGET_OS_ID": "linux", 
+                  "PACKAGE_SKIP_CLEAN_PACKAGE": "NO", 
+                  "PACKAGE_SUB_DIR": "src", 
+                  "PACKAGE_VERSION": "0.2.18", 
+                  "PACKAGE_GIT_CHECKOUT": "v0.2.18", 
+                  "PACKAGE_BUILD_TYPE": "make", 
+                  "PACKAGE_PATCH": "YES", 
+                  "PACKAGE_URL": "https://github.com/xianyi/OpenBLAS", 
+                  "PACKAGE_SKIP_CLEAN_OBJ": "NO", 
+                  "PACKAGE_CONFIGURE_FLAGS_ANDROID": "", 
+                  "PACKAGE_SUB_DIR1": "src", 
+                  "CK_TARGET_CPU_BITS": "64", 
+                  "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO"
+                }, 
+                "include_file": "cblas.h", 
+                "soft_file": {
+                  "linux": "libopenblas$#file_ext_dll#$"
+                }, 
+                "include_name": "cblas.h", 
+                "git_info": {
+                  "revision": "12ab180", 
+                  "iso_datetime_cut": "20160412", 
+                  "iso_datetime_cut_revision": "20160412-12ab180", 
+                  "iso_datetime": "2016-04-12T15:29:19", 
+                  "datetime": "Tue Apr 12 15:29:19 2016 -0400"
+                }, 
+                "version_split": [
+                  0, 
+                  2, 
+                  18, 
+                  0
+                ], 
+                "limit_recursion_dir_search": {
+                  "linux": 3
+                }, 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "dynamic_lib": "libopenblas.so", 
+                "path_include": "/home/fursin/CK/local/env/a878479b97141c0a/install/include", 
+                "full_path": "/home/fursin/CK/local/env/a878479b97141c0a/install/lib/libopenblas.a"
+              }, 
+              "setup": {
+                "deps_compiler": "37f92184481a045c", 
+                "deps_compiler-gfortran": "40e67120f334a7bb", 
+                "version": "0.2.18", 
+                "version_split": [
+                  0, 
+                  2, 
+                  18, 
+                  0
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "OpenBLAS library", 
+              "package_uoa": "43c3a4969e08adc8", 
+              "soft_uoa": "252d8364ec25497b", 
+              "env": {
+                "CK_ENV_LIB_OPENBLAS_INCLUDE_NAME": "cblas.h", 
+                "CK_ENV_LIB_OPENBLAS_STATIC_NAME": "libopenblas.a", 
+                "CK_ENV_LIB_OPENBLAS": "/home/fursin/CK/local/env/a878479b97141c0a/install", 
+                "CK_ENV_LIB_OPENBLAS_DYNAMIC_NAME": "libopenblas.so"
+              }, 
+              "soft_alias": "lib.openblas"
+            }, 
+            "package_uoa": "43c3a4969e08adc8", 
+            "local": "yes"
+          }, 
+          "compiler": {
+            "detected_ver": "7.2.0", 
+            "sort": 10, 
+            "bat": ". /home/fursin/CK/local/env/37f92184481a045c/env.sh\n", 
+            "ver": "7.2.0", 
+            "name": "GCC compiler", 
+            "tags": "compiler, gcc", 
+            "build_dir_name": "gcc", 
+            "uoa": "37f92184481a045c", 
+            "choices": [
+              "37f92184481a045c"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "compiler", 
+                "gcc", 
+                "host-os-linux-64", 
+                "lang-c", 
+                "lang-cpp", 
+                "target-os-linux-64", 
+                "v7", 
+                "v7.2", 
+                "v7.2.0"
+              ], 
+              "customize": {
+                "tool_postfix": "", 
+                "can_strip_dynamic_lib": "yes", 
+                "build_dir_name": "gcc", 
+                "skip_path": "yes", 
+                "tool_prefix_configured": "yes", 
+                "tool_prefix": "", 
+                "tool_postfix_configured": "yes", 
+                "env_prefix": "CK_ENV_COMPILER_GCC", 
+                "soft_version_cmd": {
+                  "win": " --version > $#filename#$ 2>&1", 
+                  "linux": "--version > $#filename#$ 2>&1"
+                }, 
+                "soft_path_example": {
+                  "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                  "linux": "/usr/bin/gcc"
+                }, 
+                "languages": [
+                  "C", 
+                  "CPP"
+                ], 
+                "version": "7.2.0", 
+                "soft_file_from_host_os": "yes", 
+                "sort": 100, 
+                "soft_file": {
+                  "win": "gcc.exe", 
+                  "linux": "gcc"
+                }, 
+                "retarget": "no", 
+                "search_numeric_ext_on_linux": "yes", 
+                "add_to_path": "yes", 
+                "add_only_with_version": "yes", 
+                "version_split": [
+                  7, 
+                  2, 
+                  0
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 3
+                }, 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "only_for_target_os_tags": [
+                  "mingw", 
+                  "windows", 
+                  "linux"
+                ], 
+                "full_path": "/usr/bin/gcc"
+              }, 
+              "setup": {
+                "version_split": [
+                  7, 
+                  2, 
+                  0
+                ], 
+                "target_os_bits": "64", 
+                "version": "7.2.0", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "GNU C compiler", 
+              "soft_uoa": "3a8a82fa40bf992d", 
+              "env": {
+                "CK_FLAGS_DYNAMIC_BIN": " ", 
+                "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                "CK_AR": "ar", 
+                "CK_COMPILER_POSTFIX": "", 
+                "CK_PROFILER": "gprof", 
+                "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                "CK_LIB_EXT": ".a", 
+                "CK_OPT_SIZE": "-Os", 
+                "CK_OPT_SPEED": "-O3", 
+                "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                "CK_CC": "gcc", 
+                "CK_RANLIB": "ranlib", 
+                "CK_EXE_EXT": ".out", 
+                "CK_COMPILER_FLAG_GPROF": "-pg", 
+                "CK_OPT_ALL_WARNINGS": "-Wall", 
+                "CK_LB_OUTPUT": "-o ", 
+                "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                "CK_FLAG_PREFIX_VAR": "-D", 
+                "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                "CK_EXTRA_LIB_M": "-lm", 
+                "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                "CK_COMPILER_FLAG_CPP1Z": "-std=c++1z", 
+                "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                "CK_FLAGS_CREATE_OBJ": "-c", 
+                "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                "CK_GPROF_OUT_FILE": "gmon.out", 
+                "CK_OPT_UNWIND": " ", 
+                "CK_OBJ_EXT": ".o", 
+                "CK_COMPILER_FLAG_CPP14": "-std=c++14", 
+                "CK_FLAGS_OUTPUT": "-o ", 
+                "CK_FLAGS_DLL_EXTRA": "", 
+                "CK_MAKE": "make", 
+                "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                "CK_PLUGIN_FLAG": "-fplugin=", 
+                "CK_DLL_EXT": ".so", 
+                "CK_CXX": "g++", 
+                "CK_ASM_EXT": ".s", 
+                "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                "CK_LD_FLAGS_EXTRA": "", 
+                "CK_OBJDUMP": "objdump -d", 
+                "CK_OPT_SPEED_SAFE": "-O2", 
+                "CK_ENV_COMPILER_GCC_LIB": "/usr/lib/gcc/aarch64-linux-gnu/7", 
+                "CK_FLAGS_DLL": "-shared -fPIC", 
+                "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                "CK_ENV_COMPILER_GCC": "/usr", 
+                "CK_EXTRA_LIB_DL": "-ldl", 
+                "CK_LB": "ar rcs", 
+                "CK_LD": "ld", 
+                "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                "CK_FLAGS_CREATE_ASM": "-S"
+              }, 
+              "soft_alias": "compiler.gcc"
+            }, 
+            "local": "yes"
+          }
+        }, 
+        "tags": [
+          "64bits", 
+          "compiled-by-gcc", 
+          "compiled-by-gcc-7.2.0", 
+          "host-os-linux-64", 
+          "lib", 
+          "mxnet", 
+          "mxnet-cpu", 
+          "target-os-linux-64", 
+          "v0", 
+          "v0.0", 
+          "vcpu", 
+          "vmaster", 
+          "vsource"
+        ], 
+        "customize": {
+          "git_src_dir": "src", 
+          "use_git_revision": "yes", 
+          "used_package_uid": "f5d35e3d45fbb07b", 
+          "used_package_uoa": "lib-mxnet-master-cpu", 
+          "soft_file": {
+            "win": "mxnet\\__init__.py", 
+            "linux": "mxnet/__init__.py"
+          }, 
+          "package_extra_name": " (built, cpu)", 
+          "extra_dir": "", 
+          "skip_path": "yes", 
+          "version": "master-fb50257", 
+          "check_that_exists": "yes", 
+          "env_prefix": "CK_ENV_LIB_MXNET", 
+          "git_info": {
+            "revision": "fb50257", 
+            "iso_datetime_cut": "20180412", 
+            "iso_datetime_cut_revision": "20180412-fb50257", 
+            "iso_datetime": "2018-04-12T20:49:28", 
+            "datetime": "Thu Apr 12 20:49:28 2018 -0700"
+          }, 
+          "version_split": [
+            0, 
+            0
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 5, 
+            "linux": 5
+          }, 
+          "install_env": {
+            "PACKAGE_PATCH": "NO", 
+            "PACKAGE_SKIP_CLEAN_INSTALL": "YES", 
+            "PACKAGE_CONFIGURE_FLAGS_LINUX": "", 
+            "PACKAGE_SKIP_CLEAN_OBJ": "YES", 
+            "CK_CPU_ARM_NEON": "OFF", 
+            "PACKAGE_SUB_DIR": "src", 
+            "CK_CC_FLAGS_FOR_CMAKE": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+            "PACKAGE_BUILD_TYPE": "make", 
+            "PACKAGE_UNTAR": "NO", 
+            "USE_OPENCV": 0, 
+            "PACKAGE_SKIP_LINUX_MAKE": "YES", 
+            "CK_CXX_FLAGS_FOR_CMAKE": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+            "USE_BLAS": "openblas", 
+            "CK_CPU_ARM_VFPV3": "OFF", 
+            "CK_CXX_PATH_FOR_CMAKE": "/usr/bin/g++", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "PACKAGE_WGET": "NO", 
+            "CK_CC_PATH_FOR_CMAKE": "/usr/bin/gcc", 
+            "CK_COMPILER_PATH_FOR_CMAKE_MINGW": "/usr/bin", 
+            "PACKAGE_SUB_DIR1": "src", 
+            "CK_ARMEABI_V7A": "OFF", 
+            "PACKAGE_UNBZIP": "NO", 
+            "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "6", 
+            "CK_HOST_OS_ID": "linux", 
+            "CK_AR_PATH_FOR_CMAKE": "/usr/bin/ar", 
+            "CMAKE_CONFIG": "Release", 
+            "CK_AR_PATH_FOR_CMAKE_MINGW": "/usr/bin/ar", 
+            "PYTHON_EXE": "python", 
+            "CK_TARGET_OS_ID": "linux", 
+            "CK_CXX_FLAGS_FOR_CMAKE_MINGW": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+            "PACKAGE_SKIP_BUILD_ERROR": "YES", 
+            "PACKAGE_VERSION": "master", 
+            "CK_CC_PATH_FOR_CMAKE_MINGW": "/usr/bin/gcc", 
+            "CK_CXX_PATH_FOR_CMAKE_MINGW": "/usr/bin/g++", 
+            "CK_CMAKE_EXTRA": "", 
+            "PACKAGE_COPY": "NO", 
+            "PACKAGE_URL": "https://github.com/apache/incubator-mxnet.git", 
+            "MXNET_PACKAGE_VER": "master", 
+            "CK_CC_FLAGS_FOR_CMAKE_MINGW": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+            "USE_F16C": "0", 
+            "PACKAGE_URL_LINUX": "https://github.com/apache/incubator-mxnet.git", 
+            "CK_ARMEABI_V7A_HARD": "OFF", 
+            "CK_COMPILER_PATH_FOR_CMAKE": "/usr/bin", 
+            "PACKAGE_GIT": "NO", 
+            "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES", 
+            "PACKAGE_GIT_CLONE_FLAGS": "--recursive", 
+            "PACKAGE_UNGZIP": "NO", 
+            "PACKAGE_CONFIGURE_FLAGS": ""
+          }, 
+          "no_ver_in_suggested_path": "yes", 
+          "ck_version": 10, 
+          "full_path": "/home/fursin/CK/local/env/626b4531b71015ef/src/python/mxnet/__init__.py"
+        }, 
+        "setup": {
+          "deps_compiler": "37f92184481a045c", 
+          "deps_lib-openblas": "a878479b97141c0a", 
+          "version": "master", 
+          "deps_python": "89e3f8babf4b69ba", 
+          "version_split": [
+            0, 
+            0
+          ], 
+          "target_os_bits": "64", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "f5d35e3d45fbb07b", 
+        "soft_uoa": "73c2ba9aa134e3da", 
+        "env": {
+          "MXNET_PACKAGE_VER": "master", 
+          "CK_ENV_LIB_MXNET_LIB": "/home/fursin/CK/local/env/626b4531b71015ef/src/python", 
+          "CK_ENV_LIB_MXNET": "/home/fursin/CK/local/env/626b4531b71015ef/src"
+        }, 
+        "soft_alias": "lib.mxnet"
+      }, 
+      "choices": [
+        "626b4531b71015ef"
+      ], 
+      "local": "yes", 
+      "skip_pruning_by_other_deps": "yes"
+    }, 
+    "mxnet-model": {
+      "sort": 20, 
+      "for_run_time": "yes", 
+      "bat": ". /home/fursin/CK/local/env/141528d4309a07b6/env.sh\n", 
+      "ver": "mobilenet1.0", 
+      "name": "MXNet model", 
+      "tags": "mxnetmodel", 
+      "num_entries": 1, 
+      "package_uoa": "d0eb3704fa3a60b0", 
+      "uoa": "141528d4309a07b6", 
+      "dict": {
+        "data_name": "MXNet model (net and weights) (mxnet, mobilenet, 1.0)", 
+        "deps": {
+          "python": {
+            "detected_ver": "3.5.2", 
+            "sort": 20, 
+            "bat": ". /home/fursin/CK/local/env/89e3f8babf4b69ba/env.sh\n", 
+            "ver": "3.5.2", 
+            "name": "Python", 
+            "tags": "compiler,python", 
+            "build_dir_name": "python", 
+            "uoa": "89e3f8babf4b69ba", 
+            "choices": [
+              "89e3f8babf4b69ba"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "compiler", 
+                "host-os-linux-64", 
+                "lang-python", 
+                "python", 
+                "target-os-linux-64", 
+                "v3", 
+                "v3.5", 
+                "v3.5.2"
+              ], 
+              "customize": {
+                "soft_version_cmd": {
+                  "win": "--version > $#filename#$ 2>&1", 
+                  "linux": "--version > $#filename#$ 2>&1"
+                }, 
+                "only_for_host_os_tags": [
+                  "windows", 
+                  "linux"
+                ], 
+                "build_dir_name": "python", 
+                "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+                "skip_path": "yes", 
+                "only_for_target_os_tags": [
+                  "windows", 
+                  "android", 
+                  "linux"
+                ], 
+                "languages": [
+                  "PYTHON"
+                ], 
+                "soft_file": {
+                  "win": "python*.exe", 
+                  "linux": "python*"
+                }, 
+                "version": "3.5.2", 
+                "soft_file_from_host_os": "yes", 
+                "add_only_with_version": "yes", 
+                "version_split": [
+                  3, 
+                  5, 
+                  2
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 3
+                }, 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "full_path": "/usr/bin/python3"
+              }, 
+              "setup": {
+                "version_split": [
+                  3, 
+                  5, 
+                  2
+                ], 
+                "target_os_bits": "64", 
+                "version": "3.5.2", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "python", 
+              "soft_uoa": "45d68512df22fde7", 
+              "env": {
+                "CK_ENV_COMPILER_PYTHON_FILE": "/usr/bin/python3", 
+                "CK_ENV_COMPILER_PYTHON": "/usr", 
+                "CK_PYTHON_VER3": "YES", 
+                "CK_ENV_COMPILER_PYTHON_BIN": "/usr/bin", 
+                "CK_PYTHON_PIP_BIN_FULL": "/usr/bin/pip3", 
+                "CK_PY_RT": "python", 
+                "CK_PY_OBJ_EXT": ".pyc", 
+                "CK_PYTHON_BIN": "python3", 
+                "CK_PYC": "python", 
+                "CK_PYTHON_PIP_BIN": "pip3"
+              }, 
+              "soft_alias": "compiler.python"
+            }, 
+            "local": "yes"
+          }, 
+          "lib-mxnet": {
+            "sort": 10, 
+            "bat": ". /home/fursin/CK/local/env/626b4531b71015ef/env.sh\n", 
+            "ver": "master-fb50257", 
+            "name": "MXNet library", 
+            "tags": "lib,mxnet", 
+            "uoa": "626b4531b71015ef", 
+            "choices": [
+              "626b4531b71015ef"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "python": {
+                  "detected_ver": "3.5.2", 
+                  "sort": 5, 
+                  "bat": ". /home/fursin/CK/local/env/89e3f8babf4b69ba/env.sh\n", 
+                  "ver": "3.5.2", 
+                  "name": "Python", 
+                  "tags": "compiler,python", 
+                  "build_dir_name": "python", 
+                  "uoa": "89e3f8babf4b69ba", 
+                  "choices": [
+                    "89e3f8babf4b69ba"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "host-os-linux-64", 
+                      "lang-python", 
+                      "python", 
+                      "target-os-linux-64", 
+                      "v3", 
+                      "v3.5", 
+                      "v3.5.2"
+                    ], 
+                    "customize": {
+                      "soft_version_cmd": {
+                        "win": "--version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "only_for_host_os_tags": [
+                        "windows", 
+                        "linux"
+                      ], 
+                      "build_dir_name": "python", 
+                      "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+                      "skip_path": "yes", 
+                      "only_for_target_os_tags": [
+                        "windows", 
+                        "android", 
+                        "linux"
+                      ], 
+                      "languages": [
+                        "PYTHON"
+                      ], 
+                      "soft_file": {
+                        "win": "python*.exe", 
+                        "linux": "python*"
+                      }, 
+                      "version": "3.5.2", 
+                      "soft_file_from_host_os": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        3, 
+                        5, 
+                        2
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "full_path": "/usr/bin/python3"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        3, 
+                        5, 
+                        2
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "3.5.2", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "python", 
+                    "soft_uoa": "45d68512df22fde7", 
+                    "env": {
+                      "CK_ENV_COMPILER_PYTHON_FILE": "/usr/bin/python3", 
+                      "CK_ENV_COMPILER_PYTHON": "/usr", 
+                      "CK_PYTHON_VER3": "YES", 
+                      "CK_ENV_COMPILER_PYTHON_BIN": "/usr/bin", 
+                      "CK_PYTHON_PIP_BIN_FULL": "/usr/bin/pip3", 
+                      "CK_PY_RT": "python", 
+                      "CK_PY_OBJ_EXT": ".pyc", 
+                      "CK_PYTHON_BIN": "python3", 
+                      "CK_PYC": "python", 
+                      "CK_PYTHON_PIP_BIN": "pip3"
+                    }, 
+                    "soft_alias": "compiler.python"
+                  }, 
+                  "local": "yes"
+                }, 
+                "lib-openblas": {
+                  "sort": 11, 
+                  "bat": ". /home/fursin/CK/local/env/a878479b97141c0a/env.sh\n", 
+                  "ver": "0.2.18-12ab180", 
+                  "name": "Openblas library", 
+                  "tags": "lib,openblas", 
+                  "uoa": "a878479b97141c0a", 
+                  "choices": [
+                    "a878479b97141c0a"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {
+                      "compiler-mingw": {
+                        "skip_installed": {
+                          "win": "yes"
+                        }, 
+                        "only_for_host_os_tags": [
+                          "windows"
+                        ], 
+                        "skip_from_bat": "yes", 
+                        "tags": "compiler,lang-c,gcc", 
+                        "sort": 5, 
+                        "add_to_path": "yes", 
+                        "force_target_as_host": "yes", 
+                        "local": "yes", 
+                        "name": "C compiler"
+                      }, 
+                      "compiler": {
+                        "detected_ver": "7.2.0", 
+                        "sort": 10, 
+                        "bat": ". /home/fursin/CK/local/env/37f92184481a045c/env.sh\n", 
+                        "ver": "7.2.0", 
+                        "name": "C compiler", 
+                        "tags": "compiler,lang-c", 
+                        "build_dir_name": "gcc", 
+                        "uoa": "37f92184481a045c", 
+                        "only_for_target_os_tags": [
+                          "android", 
+                          "linux"
+                        ], 
+                        "choices": [
+                          "37f92184481a045c", 
+                          "8d5437a8d0417da5"
+                        ], 
+                        "num_entries": 1, 
+                        "dict": {
+                          "env_script": "env.sh", 
+                          "deps": {}, 
+                          "tags": [
+                            "64bits", 
+                            "compiler", 
+                            "gcc", 
+                            "host-os-linux-64", 
+                            "lang-c", 
+                            "lang-cpp", 
+                            "target-os-linux-64", 
+                            "v7", 
+                            "v7.2", 
+                            "v7.2.0"
+                          ], 
+                          "customize": {
+                            "tool_postfix": "", 
+                            "can_strip_dynamic_lib": "yes", 
+                            "build_dir_name": "gcc", 
+                            "skip_path": "yes", 
+                            "tool_prefix_configured": "yes", 
+                            "tool_prefix": "", 
+                            "tool_postfix_configured": "yes", 
+                            "env_prefix": "CK_ENV_COMPILER_GCC", 
+                            "soft_version_cmd": {
+                              "win": " --version > $#filename#$ 2>&1", 
+                              "linux": "--version > $#filename#$ 2>&1"
+                            }, 
+                            "soft_path_example": {
+                              "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                              "linux": "/usr/bin/gcc"
+                            }, 
+                            "languages": [
+                              "C", 
+                              "CPP"
+                            ], 
+                            "version": "7.2.0", 
+                            "soft_file_from_host_os": "yes", 
+                            "sort": 100, 
+                            "soft_file": {
+                              "win": "gcc.exe", 
+                              "linux": "gcc"
+                            }, 
+                            "retarget": "no", 
+                            "search_numeric_ext_on_linux": "yes", 
+                            "add_to_path": "yes", 
+                            "add_only_with_version": "yes", 
+                            "version_split": [
+                              7, 
+                              2, 
+                              0
+                            ], 
+                            "limit_recursion_dir_search": {
+                              "win": 4, 
+                              "linux": 3
+                            }, 
+                            "check_that_exists": "yes", 
+                            "ck_version": 10, 
+                            "only_for_target_os_tags": [
+                              "mingw", 
+                              "windows", 
+                              "linux"
+                            ], 
+                            "full_path": "/usr/bin/gcc"
+                          }, 
+                          "setup": {
+                            "version_split": [
+                              7, 
+                              2, 
+                              0
+                            ], 
+                            "target_os_bits": "64", 
+                            "version": "7.2.0", 
+                            "host_os_uoa": "4258b5fe54828a50", 
+                            "target_os_uoa": "4258b5fe54828a50"
+                          }, 
+                          "data_name": "GNU C compiler", 
+                          "soft_uoa": "3a8a82fa40bf992d", 
+                          "env": {
+                            "CK_FLAGS_DYNAMIC_BIN": " ", 
+                            "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                            "CK_AR": "ar", 
+                            "CK_COMPILER_POSTFIX": "", 
+                            "CK_PROFILER": "gprof", 
+                            "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                            "CK_LIB_EXT": ".a", 
+                            "CK_OPT_SIZE": "-Os", 
+                            "CK_OPT_SPEED": "-O3", 
+                            "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                            "CK_CC": "gcc", 
+                            "CK_RANLIB": "ranlib", 
+                            "CK_EXE_EXT": ".out", 
+                            "CK_COMPILER_FLAG_GPROF": "-pg", 
+                            "CK_OPT_ALL_WARNINGS": "-Wall", 
+                            "CK_LB_OUTPUT": "-o ", 
+                            "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                            "CK_FLAG_PREFIX_VAR": "-D", 
+                            "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                            "CK_EXTRA_LIB_M": "-lm", 
+                            "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                            "CK_COMPILER_FLAG_CPP1Z": "-std=c++1z", 
+                            "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                            "CK_FLAGS_CREATE_OBJ": "-c", 
+                            "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                            "CK_GPROF_OUT_FILE": "gmon.out", 
+                            "CK_OPT_UNWIND": " ", 
+                            "CK_OBJ_EXT": ".o", 
+                            "CK_COMPILER_FLAG_CPP14": "-std=c++14", 
+                            "CK_FLAGS_OUTPUT": "-o ", 
+                            "CK_FLAGS_DLL_EXTRA": "", 
+                            "CK_MAKE": "make", 
+                            "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                            "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                            "CK_PLUGIN_FLAG": "-fplugin=", 
+                            "CK_DLL_EXT": ".so", 
+                            "CK_CXX": "g++", 
+                            "CK_ASM_EXT": ".s", 
+                            "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                            "CK_LD_FLAGS_EXTRA": "", 
+                            "CK_OBJDUMP": "objdump -d", 
+                            "CK_OPT_SPEED_SAFE": "-O2", 
+                            "CK_ENV_COMPILER_GCC_LIB": "/usr/lib/gcc/aarch64-linux-gnu/7", 
+                            "CK_FLAGS_DLL": "-shared -fPIC", 
+                            "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                            "CK_ENV_COMPILER_GCC": "/usr", 
+                            "CK_EXTRA_LIB_DL": "-ldl", 
+                            "CK_LB": "ar rcs", 
+                            "CK_LD": "ld", 
+                            "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                            "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                            "CK_FLAGS_CREATE_ASM": "-S"
+                          }, 
+                          "soft_alias": "compiler.gcc"
+                        }, 
+                        "local": "yes"
+                      }, 
+                      "utils-unix-win": {
+                        "sort": 1, 
+                        "only_for_host_os_tags": [
+                          "windows"
+                        ], 
+                        "skip_from_bat": "yes", 
+                        "tags": "utils,unix-win", 
+                        "force_target_as_host": "yes", 
+                        "local": "yes", 
+                        "name": "Unix Utils for Windows"
+                      }, 
+                      "compiler-gfortran": {
+                        "detected_ver": "7.2.0", 
+                        "sort": 15, 
+                        "bat": ". /home/fursin/CK/local/env/40e67120f334a7bb/env.sh\n", 
+                        "ver": "7.2.0", 
+                        "name": "GNU Fortran compiler", 
+                        "tags": "compiler,gfortran", 
+                        "build_dir_name": "gfortran", 
+                        "uoa": "40e67120f334a7bb", 
+                        "only_for_target_os_tags": [
+                          "windows", 
+                          "linux"
+                        ], 
+                        "choices": [
+                          "40e67120f334a7bb"
+                        ], 
+                        "num_entries": 1, 
+                        "dict": {
+                          "env_script": "env.sh", 
+                          "deps": {}, 
+                          "tags": [
+                            "64bits", 
+                            "compiler", 
+                            "fortran", 
+                            "gfortran", 
+                            "host-os-linux-64", 
+                            "lang-f77", 
+                            "lang-f90", 
+                            "lang-f95", 
+                            "target-os-linux-64", 
+                            "v7", 
+                            "v7.2", 
+                            "v7.2.0"
+                          ], 
+                          "customize": {
+                            "tool_postfix": "-7", 
+                            "can_strip_dynamic_lib": "yes", 
+                            "build_dir_name": "gfortran", 
+                            "skip_path": "yes", 
+                            "tool_prefix_configured": "yes", 
+                            "tool_prefix": "", 
+                            "tool_postfix_configured": "yes", 
+                            "env_prefix": "CK_ENV_COMPILER_GFORTRAN", 
+                            "soft_version_cmd": {
+                              "win": " --version > $#filename#$ 2>&1", 
+                              "linux": "--version > $#filename#$ 2>&1"
+                            }, 
+                            "soft_path_example": {
+                              "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gfortran.exe", 
+                              "linux": "/usr/bin/gfortran"
+                            }, 
+                            "languages": [
+                              "F77", 
+                              "F90", 
+                              "F95"
+                            ], 
+                            "version": "7.2.0", 
+                            "soft_file_from_host_os": "yes", 
+                            "sort": 100, 
+                            "soft_file": {
+                              "win": "gfortran.exe", 
+                              "linux": "gfortran"
+                            }, 
+                            "retarget": "no", 
+                            "search_numeric_ext_on_linux": "yes", 
+                            "add_to_path": "yes", 
+                            "add_only_with_version": "yes", 
+                            "version_split": [
+                              7, 
+                              2, 
+                              0
+                            ], 
+                            "limit_recursion_dir_search": {
+                              "win": 4, 
+                              "linux": 3
+                            }, 
+                            "check_that_exists": "yes", 
+                            "ck_version": 10, 
+                            "only_for_target_os_tags": [
+                              "mingw", 
+                              "windows", 
+                              "linux"
+                            ], 
+                            "full_path": "/usr/bin/gfortran-7"
+                          }, 
+                          "setup": {
+                            "version_split": [
+                              7, 
+                              2, 
+                              0
+                            ], 
+                            "target_os_bits": "64", 
+                            "version": "7.2.0", 
+                            "host_os_uoa": "4258b5fe54828a50", 
+                            "target_os_uoa": "4258b5fe54828a50"
+                          }, 
+                          "data_name": "GNU Fortran compiler", 
+                          "soft_uoa": "504d7e807c7b3146", 
+                          "env": {
+                            "CK_FLAGS_DYNAMIC_BIN": " ", 
+                            "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                            "CK_AR": "ar", 
+                            "CK_COMPILER_POSTFIX": "-7", 
+                            "CK_PROFILER": "gprof", 
+                            "CK_ENV_COMPILER_GFORTRAN": "/usr", 
+                            "CK_LIB_EXT": ".a", 
+                            "CK_OPT_SIZE": "-Os", 
+                            "CK_OPT_SPEED": "-O3", 
+                            "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                            "CK_EXE_EXT": ".out", 
+                            "CK_COMPILER_FLAG_GPROF": "-pg", 
+                            "CK_OPT_ALL_WARNINGS": "-Wall", 
+                            "CK_LB_OUTPUT": "-o ", 
+                            "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                            "CK_FLAG_PREFIX_VAR": "-D", 
+                            "CK_EXTRA_LIB_M": "-lm", 
+                            "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                            "CK_FLAGS_CREATE_OBJ": "-c", 
+                            "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                            "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                            "CK_OPT_UNWIND": " ", 
+                            "CK_OBJ_EXT": ".o", 
+                            "CK_FLAGS_OUTPUT": "-o ", 
+                            "CK_LB": "ar rcs", 
+                            "CK_MAKE": "make", 
+                            "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                            "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                            "CK_PLUGIN_FLAG": "-fplugin=", 
+                            "CK_OPT_SPEED_SAFE": "-O2", 
+                            "CK_DLL_EXT": ".so", 
+                            "CK_ASM_EXT": ".s", 
+                            "CK_FC": "gfortran-7", 
+                            "CK_LD_FLAGS_EXTRA": "", 
+                            "CK_OBJDUMP": "objdump -d", 
+                            "CK_F95": "gfortran-7", 
+                            "CK_F90": "gfortran-7", 
+                            "CK_FLAGS_DLL_EXTRA": "", 
+                            "CK_FLAGS_DLL": "-shared -fPIC", 
+                            "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                            "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                            "CK_EXTRA_LIB_DL": "-ldl", 
+                            "CK_GPROF_OUT_FILE": "gmon.out", 
+                            "CK_LD": "ld", 
+                            "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                            "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                            "CK_FLAGS_CREATE_ASM": "-S"
+                          }, 
+                          "soft_alias": "compiler.gfortran"
+                        }, 
+                        "local": "yes", 
+                        "skip_from_bat": "yes"
+                      }, 
+                      "compiler-perl": {
+                        "skip_installed": {
+                          "win": "yes"
+                        }, 
+                        "only_for_host_os_tags": [
+                          "windows"
+                        ], 
+                        "skip_from_bat": "yes", 
+                        "tags": "compiler,perl", 
+                        "sort": 3, 
+                        "force_target_as_host": "yes", 
+                        "local": "yes", 
+                        "name": "Perl"
+                      }
+                    }, 
+                    "tags": [
+                      "64bits", 
+                      "blas", 
+                      "cblas", 
+                      "channel-stable", 
+                      "compiled-by-gcc", 
+                      "compiled-by-gcc-7.2.0", 
+                      "host-os-linux-64", 
+                      "lib", 
+                      "needs-unknown_compiler-mingw", 
+                      "openblas", 
+                      "target-os-linux-64", 
+                      "v0", 
+                      "v0.2", 
+                      "v0.2.18", 
+                      "v0.2.18.0"
+                    ], 
+                    "customize": {
+                      "git_src_dir": "src", 
+                      "use_git_revision": "yes", 
+                      "skip_path": "yes", 
+                      "extra_dir": "", 
+                      "env_prefix": "CK_ENV_LIB_OPENBLAS", 
+                      "used_package_uid": "43c3a4969e08adc8", 
+                      "used_package_uoa": "lib-openblas-0.2.18-universal", 
+                      "soft_path_example": {
+                        "linux": "/usr/lib/libopenblas.so"
+                      }, 
+                      "static_lib": "libopenblas.a", 
+                      "version": "0.2.18-12ab180", 
+                      "path_lib": "/home/fursin/CK/local/env/a878479b97141c0a/install/lib", 
+                      "install_env": {
+                        "PACKAGE_SKIP_CMAKE_TARGET": "YES", 
+                        "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "6", 
+                        "CK_HOST_OS_ID": "linux", 
+                        "PACKAGE_SKIP_CLEAN_INSTALL": "NO", 
+                        "PACKAGE_GIT": "YES", 
+                        "PACKAGE_AUTOGEN": "NO", 
+                        "CK_TARGET_OS_ID": "linux", 
+                        "PACKAGE_SKIP_CLEAN_PACKAGE": "NO", 
+                        "PACKAGE_SUB_DIR": "src", 
+                        "PACKAGE_VERSION": "0.2.18", 
+                        "PACKAGE_GIT_CHECKOUT": "v0.2.18", 
+                        "PACKAGE_BUILD_TYPE": "make", 
+                        "PACKAGE_PATCH": "YES", 
+                        "PACKAGE_URL": "https://github.com/xianyi/OpenBLAS", 
+                        "PACKAGE_SKIP_CLEAN_OBJ": "NO", 
+                        "PACKAGE_CONFIGURE_FLAGS_ANDROID": "", 
+                        "PACKAGE_SUB_DIR1": "src", 
+                        "CK_TARGET_CPU_BITS": "64", 
+                        "PACKAGE_SKIP_CLEAN_SRC_DIR": "NO"
+                      }, 
+                      "include_file": "cblas.h", 
+                      "soft_file": {
+                        "linux": "libopenblas$#file_ext_dll#$"
+                      }, 
+                      "include_name": "cblas.h", 
+                      "git_info": {
+                        "revision": "12ab180", 
+                        "iso_datetime_cut": "20160412", 
+                        "iso_datetime_cut_revision": "20160412-12ab180", 
+                        "iso_datetime": "2016-04-12T15:29:19", 
+                        "datetime": "Tue Apr 12 15:29:19 2016 -0400"
+                      }, 
+                      "version_split": [
+                        0, 
+                        2, 
+                        18, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "dynamic_lib": "libopenblas.so", 
+                      "path_include": "/home/fursin/CK/local/env/a878479b97141c0a/install/include", 
+                      "full_path": "/home/fursin/CK/local/env/a878479b97141c0a/install/lib/libopenblas.a"
+                    }, 
+                    "setup": {
+                      "deps_compiler": "37f92184481a045c", 
+                      "deps_compiler-gfortran": "40e67120f334a7bb", 
+                      "version": "0.2.18", 
+                      "version_split": [
+                        0, 
+                        2, 
+                        18, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "OpenBLAS library", 
+                    "package_uoa": "43c3a4969e08adc8", 
+                    "soft_uoa": "252d8364ec25497b", 
+                    "env": {
+                      "CK_ENV_LIB_OPENBLAS_INCLUDE_NAME": "cblas.h", 
+                      "CK_ENV_LIB_OPENBLAS_STATIC_NAME": "libopenblas.a", 
+                      "CK_ENV_LIB_OPENBLAS": "/home/fursin/CK/local/env/a878479b97141c0a/install", 
+                      "CK_ENV_LIB_OPENBLAS_DYNAMIC_NAME": "libopenblas.so"
+                    }, 
+                    "soft_alias": "lib.openblas"
+                  }, 
+                  "package_uoa": "43c3a4969e08adc8", 
+                  "local": "yes"
+                }, 
+                "compiler": {
+                  "detected_ver": "7.2.0", 
+                  "sort": 10, 
+                  "bat": ". /home/fursin/CK/local/env/37f92184481a045c/env.sh\n", 
+                  "ver": "7.2.0", 
+                  "name": "GCC compiler", 
+                  "tags": "compiler, gcc", 
+                  "build_dir_name": "gcc", 
+                  "uoa": "37f92184481a045c", 
+                  "choices": [
+                    "37f92184481a045c"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "gcc", 
+                      "host-os-linux-64", 
+                      "lang-c", 
+                      "lang-cpp", 
+                      "target-os-linux-64", 
+                      "v7", 
+                      "v7.2", 
+                      "v7.2.0"
+                    ], 
+                    "customize": {
+                      "tool_postfix": "", 
+                      "can_strip_dynamic_lib": "yes", 
+                      "build_dir_name": "gcc", 
+                      "skip_path": "yes", 
+                      "tool_prefix_configured": "yes", 
+                      "tool_prefix": "", 
+                      "tool_postfix_configured": "yes", 
+                      "env_prefix": "CK_ENV_COMPILER_GCC", 
+                      "soft_version_cmd": {
+                        "win": " --version > $#filename#$ 2>&1", 
+                        "linux": "--version > $#filename#$ 2>&1"
+                      }, 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe", 
+                        "linux": "/usr/bin/gcc"
+                      }, 
+                      "languages": [
+                        "C", 
+                        "CPP"
+                      ], 
+                      "version": "7.2.0", 
+                      "soft_file_from_host_os": "yes", 
+                      "sort": 100, 
+                      "soft_file": {
+                        "win": "gcc.exe", 
+                        "linux": "gcc"
+                      }, 
+                      "retarget": "no", 
+                      "search_numeric_ext_on_linux": "yes", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        7, 
+                        2, 
+                        0
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "ck_version": 10, 
+                      "only_for_target_os_tags": [
+                        "mingw", 
+                        "windows", 
+                        "linux"
+                      ], 
+                      "full_path": "/usr/bin/gcc"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        7, 
+                        2, 
+                        0
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "7.2.0", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "GNU C compiler", 
+                    "soft_uoa": "3a8a82fa40bf992d", 
+                    "env": {
+                      "CK_FLAGS_DYNAMIC_BIN": " ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_AR": "ar", 
+                      "CK_COMPILER_POSTFIX": "", 
+                      "CK_PROFILER": "gprof", 
+                      "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                      "CK_LIB_EXT": ".a", 
+                      "CK_OPT_SIZE": "-Os", 
+                      "CK_OPT_SPEED": "-O3", 
+                      "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                      "CK_CC": "gcc", 
+                      "CK_RANLIB": "ranlib", 
+                      "CK_EXE_EXT": ".out", 
+                      "CK_COMPILER_FLAG_GPROF": "-pg", 
+                      "CK_OPT_ALL_WARNINGS": "-Wall", 
+                      "CK_LB_OUTPUT": "-o ", 
+                      "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                      "CK_FLAG_PREFIX_VAR": "-D", 
+                      "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                      "CK_EXTRA_LIB_M": "-lm", 
+                      "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                      "CK_COMPILER_FLAG_CPP1Z": "-std=c++1z", 
+                      "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                      "CK_FLAGS_CREATE_OBJ": "-c", 
+                      "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                      "CK_GPROF_OUT_FILE": "gmon.out", 
+                      "CK_OPT_UNWIND": " ", 
+                      "CK_OBJ_EXT": ".o", 
+                      "CK_COMPILER_FLAG_CPP14": "-std=c++14", 
+                      "CK_FLAGS_OUTPUT": "-o ", 
+                      "CK_FLAGS_DLL_EXTRA": "", 
+                      "CK_MAKE": "make", 
+                      "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                      "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                      "CK_PLUGIN_FLAG": "-fplugin=", 
+                      "CK_DLL_EXT": ".so", 
+                      "CK_CXX": "g++", 
+                      "CK_ASM_EXT": ".s", 
+                      "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                      "CK_LD_FLAGS_EXTRA": "", 
+                      "CK_OBJDUMP": "objdump -d", 
+                      "CK_OPT_SPEED_SAFE": "-O2", 
+                      "CK_ENV_COMPILER_GCC_LIB": "/usr/lib/gcc/aarch64-linux-gnu/7", 
+                      "CK_FLAGS_DLL": "-shared -fPIC", 
+                      "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                      "CK_ENV_COMPILER_GCC": "/usr", 
+                      "CK_EXTRA_LIB_DL": "-ldl", 
+                      "CK_LB": "ar rcs", 
+                      "CK_LD": "ld", 
+                      "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                      "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                      "CK_FLAGS_CREATE_ASM": "-S"
+                    }, 
+                    "soft_alias": "compiler.gcc"
+                  }, 
+                  "local": "yes"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "compiled-by-gcc", 
+                "compiled-by-gcc-7.2.0", 
+                "host-os-linux-64", 
+                "lib", 
+                "mxnet", 
+                "mxnet-cpu", 
+                "target-os-linux-64", 
+                "v0", 
+                "v0.0", 
+                "vcpu", 
+                "vmaster", 
+                "vsource"
+              ], 
+              "customize": {
+                "git_src_dir": "src", 
+                "use_git_revision": "yes", 
+                "used_package_uid": "f5d35e3d45fbb07b", 
+                "used_package_uoa": "lib-mxnet-master-cpu", 
+                "soft_file": {
+                  "win": "mxnet\\__init__.py", 
+                  "linux": "mxnet/__init__.py"
+                }, 
+                "package_extra_name": " (built, cpu)", 
+                "extra_dir": "", 
+                "skip_path": "yes", 
+                "version": "master-fb50257", 
+                "check_that_exists": "yes", 
+                "env_prefix": "CK_ENV_LIB_MXNET", 
+                "git_info": {
+                  "revision": "fb50257", 
+                  "iso_datetime_cut": "20180412", 
+                  "iso_datetime_cut_revision": "20180412-fb50257", 
+                  "iso_datetime": "2018-04-12T20:49:28", 
+                  "datetime": "Thu Apr 12 20:49:28 2018 -0700"
+                }, 
+                "version_split": [
+                  0, 
+                  0
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 5, 
+                  "linux": 5
+                }, 
+                "install_env": {
+                  "PACKAGE_PATCH": "NO", 
+                  "PACKAGE_SKIP_CLEAN_INSTALL": "YES", 
+                  "PACKAGE_CONFIGURE_FLAGS_LINUX": "", 
+                  "PACKAGE_SKIP_CLEAN_OBJ": "YES", 
+                  "CK_CPU_ARM_NEON": "OFF", 
+                  "PACKAGE_SUB_DIR": "src", 
+                  "CK_CC_FLAGS_FOR_CMAKE": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+                  "PACKAGE_BUILD_TYPE": "make", 
+                  "PACKAGE_UNTAR": "NO", 
+                  "USE_OPENCV": 0, 
+                  "PACKAGE_SKIP_LINUX_MAKE": "YES", 
+                  "CK_CXX_FLAGS_FOR_CMAKE": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+                  "USE_BLAS": "openblas", 
+                  "CK_CPU_ARM_VFPV3": "OFF", 
+                  "CK_CXX_PATH_FOR_CMAKE": "/usr/bin/g++", 
+                  "CK_TARGET_CPU_BITS": "64", 
+                  "PACKAGE_WGET": "NO", 
+                  "CK_CC_PATH_FOR_CMAKE": "/usr/bin/gcc", 
+                  "CK_COMPILER_PATH_FOR_CMAKE_MINGW": "/usr/bin", 
+                  "PACKAGE_SUB_DIR1": "src", 
+                  "CK_ARMEABI_V7A": "OFF", 
+                  "PACKAGE_UNBZIP": "NO", 
+                  "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "6", 
+                  "CK_HOST_OS_ID": "linux", 
+                  "CK_AR_PATH_FOR_CMAKE": "/usr/bin/ar", 
+                  "CMAKE_CONFIG": "Release", 
+                  "CK_AR_PATH_FOR_CMAKE_MINGW": "/usr/bin/ar", 
+                  "PYTHON_EXE": "python", 
+                  "CK_TARGET_OS_ID": "linux", 
+                  "CK_CXX_FLAGS_FOR_CMAKE_MINGW": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+                  "PACKAGE_SKIP_BUILD_ERROR": "YES", 
+                  "PACKAGE_VERSION": "master", 
+                  "CK_CC_PATH_FOR_CMAKE_MINGW": "/usr/bin/gcc", 
+                  "CK_CXX_PATH_FOR_CMAKE_MINGW": "/usr/bin/g++", 
+                  "CK_CMAKE_EXTRA": "", 
+                  "PACKAGE_COPY": "NO", 
+                  "PACKAGE_URL": "https://github.com/apache/incubator-mxnet.git", 
+                  "MXNET_PACKAGE_VER": "master", 
+                  "CK_CC_FLAGS_FOR_CMAKE_MINGW": "${CK_COMPILER_FLAGS_OBLIGATORY}", 
+                  "USE_F16C": "0", 
+                  "PACKAGE_URL_LINUX": "https://github.com/apache/incubator-mxnet.git", 
+                  "CK_ARMEABI_V7A_HARD": "OFF", 
+                  "CK_COMPILER_PATH_FOR_CMAKE": "/usr/bin", 
+                  "PACKAGE_GIT": "NO", 
+                  "PACKAGE_SKIP_CLEAN_SRC_DIR": "YES", 
+                  "PACKAGE_GIT_CLONE_FLAGS": "--recursive", 
+                  "PACKAGE_UNGZIP": "NO", 
+                  "PACKAGE_CONFIGURE_FLAGS": ""
+                }, 
+                "no_ver_in_suggested_path": "yes", 
+                "ck_version": 10, 
+                "full_path": "/home/fursin/CK/local/env/626b4531b71015ef/src/python/mxnet/__init__.py"
+              }, 
+              "setup": {
+                "deps_compiler": "37f92184481a045c", 
+                "deps_lib-openblas": "a878479b97141c0a", 
+                "version": "master", 
+                "deps_python": "89e3f8babf4b69ba", 
+                "version_split": [
+                  0, 
+                  0
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "MXNet library (built, cpu)", 
+              "package_uoa": "f5d35e3d45fbb07b", 
+              "soft_uoa": "73c2ba9aa134e3da", 
+              "env": {
+                "MXNET_PACKAGE_VER": "master", 
+                "CK_ENV_LIB_MXNET_LIB": "/home/fursin/CK/local/env/626b4531b71015ef/src/python", 
+                "CK_ENV_LIB_MXNET": "/home/fursin/CK/local/env/626b4531b71015ef/src"
+              }, 
+              "soft_alias": "lib.mxnet"
+            }, 
+            "package_uoa": "f5d35e3d45fbb07b", 
+            "local": "yes", 
+            "skip_from_bat": "yes"
+          }
+        }, 
+        "tags": [
+          "64bits", 
+          "channel-stable", 
+          "host-os-linux-64", 
+          "mobilenet", 
+          "mobilenet1.0", 
+          "mxnetmodel", 
+          "target-os-linux-64", 
+          "v0", 
+          "v0.0"
+        ], 
+        "customize": {
+          "used_package_uid": "d0eb3704fa3a60b0", 
+          "used_package_uoa": "mxnetmodel-mobilenet-1.0", 
+          "package_extra_name": " (mxnet, mobilenet, 1.0)", 
+          "skip_path": "yes", 
+          "ck_version": 10, 
+          "version_split": [
+            0, 
+            0
+          ], 
+          "version": "mobilenet1.0", 
+          "env_prefix": "CK_ENV_MODEL_MXNET", 
+          "extra_dir": "", 
+          "skip_file_check": "no", 
+          "check_that_exists": "yes", 
+          "install_env": {
+            "MXNET_MODEL_ID": "mobilenet1.0", 
+            "CK_HOST_OS_ID": "linux", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "MXNET_MODEL": "mobilenet1.0", 
+            "MXNET_MODEL_LABELS": "synset.txt", 
+            "CK_TARGET_OS_ID": "linux", 
+            "MXNET_URL_MODEL_LABELS": "http://data.mxnet.io/models/imagenet-11k", 
+            "PACKAGE_VERSION": "mobilenet1.0", 
+            "MXNET_MODEL_PARAMS": "mobilenet1.0-6b8c5106.params"
+          }, 
+          "full_path": "/home/fursin/CK/local/env/141528d4309a07b6/mobilenet1.0-6b8c5106.params", 
+          "no_os_in_suggested_path": "yes"
+        }, 
+        "setup": {
+          "deps_lib-mxnet": "626b4531b71015ef", 
+          "version": "mobilenet1.0", 
+          "deps_python": "89e3f8babf4b69ba", 
+          "version_split": [
+            0, 
+            0
+          ], 
+          "target_os_bits": "64", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "d0eb3704fa3a60b0", 
+        "soft_uoa": "539416b3524c4795", 
+        "env": {
+          "MXNET_MODEL_ID": "mobilenet1.0", 
+          "CK_ENV_MODEL_MXNET": "/home/fursin/CK/local/env/141528d4309a07b6", 
+          "CK_ENV_MODEL_MXNET_LABELS": "synset.txt", 
+          "CK_ENV_MODEL_MXNET_LABELS_FULL": "/home/fursin/CK/local/env/141528d4309a07b6/synset.txt", 
+          "CK_ENV_MODEL_MXNET_MODEL": "mobilenet1.0", 
+          "CK_ENV_MODEL_MXNET_PARAMS_FULL": "/home/fursin/CK/local/env/141528d4309a07b6/mobilenet1.0-6b8c5106.params", 
+          "CK_ENV_MODEL_MXNET_MODEL_FULL": "/home/fursin/CK/local/env/141528d4309a07b6/mobilenet1.0", 
+          "CK_ENV_MODEL_MXNET_PARAMS": "mobilenet1.0-6b8c5106.params"
+        }, 
+        "soft_alias": "model.mxnet"
+      }, 
+      "choices": [
+        "141528d4309a07b6"
+      ], 
+      "local": "yes", 
+      "skip_pruning_by_other_deps": "yes"
+    }
+  }, 
+  "no_compiler_description": "yes", 
+  "choices_desc": {
+    "##dataset_file": {
+      "has_choice": "yes", 
+      "sort": 1100, 
+      "tags": [
+        "setup"
+      ], 
+      "type": "text", 
+      "choices": [
+        "snake.jpg"
+      ]
+    }
+  }, 
+  "speed": "no"
+}

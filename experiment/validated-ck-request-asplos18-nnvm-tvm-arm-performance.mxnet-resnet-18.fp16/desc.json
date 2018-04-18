@@ -1,0 +1,17 @@
+{
+  "characteristics_desc": {}, 
+  "choices_desc": {
+    "##dataset_file": {
+      "has_choice": "yes", 
+      "sort": 1100, 
+      "choices": [
+        "snake.jpg"
+      ], 
+      "type": "text", 
+      "tags": [
+        "setup"
+      ]
+    }
+  }, 
+  "features_desc": {}
+}

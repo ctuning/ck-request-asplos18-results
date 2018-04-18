@@ -1,0 +1,173 @@
+{
+  "added": {
+    "engine": "CK",
+    "iso_datetime": "2018-04-16T10:25:14.258980",
+    "version": [
+      "1",
+      "9",
+      "4"
+    ]
+  },
+  "meta": {
+    "algorithm_species": "4b8bbc192ec57f63",
+    "artifact": "08da9685582866a0",
+    "compiler_name": "GNU C compiler 7.2.0",
+    "cpu_abi": "",
+    "cpu_name": "0x41-8-0x0-0xd03-4 ; 0x41-8-0x0-0xd08-2",
+    "cpu_uid": "",
+    "dataset_size": 500,
+    "dataset_species": "ImageNet",
+    "deps_summary": {
+      "compiler": {
+        "data_name": "GNU C compiler",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "C++ compiler",
+        "package_tags": "64bits,compiler,gcc,host-os-linux-64,lang-c,lang-cpp,target-os-linux-64,v7,v7.2,v7.2.0",
+        "package_uoa": "",
+        "tags": "compiler,lang-cpp",
+        "version": "7.2.0"
+      },
+      "imagenet-aux": {
+        "data_name": "ImageNet dataset (aux)",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "ImageNet dataset (aux)",
+        "package_tags": "64bits,aux,caffe,channel-stable,dataset,host-os-linux-64,ilsvrc2012,imagenet,target-os-linux-64,v2012",
+        "package_uoa": "4e3e9dd897f125bb",
+        "tags": "dataset,imagenet,aux",
+        "version": "2012"
+      },
+      "imagenet-val": {
+        "data_name": "ImageNet dataset (validation)",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "ImageNet dataset (val)",
+        "package_tags": "64bits,caffe,channel-stable,dataset,host-os-linux-64,ilsvrc2012,ilsvrc2012min,ilsvrc2012resized,imagenet,raw,resized,small_dataset,target-os-linux-64,v2012,val",
+        "package_uoa": "476be5741f52384f",
+        "tags": "dataset,imagenet,raw,val",
+        "version": "2012"
+      },
+      "library": {
+        "data_name": "ARM Compute Library (opencl)",
+        "deps": {
+          "compiler": {
+            "data_name": "GNU C compiler",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "C++ compiler",
+            "package_tags": "64bits,compiler,gcc,host-os-linux-64,lang-c,lang-cpp,target-os-linux-64,v7,v7.2,v7.2.0",
+            "package_uoa": "",
+            "tags": "compiler,lang-cpp",
+            "version": "7.2.0"
+          },
+          "opencl": {
+            "data_name": "OpenCL library",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "OpenCL library",
+            "package_tags": "64bits,host-os-linux-64,lib,opencl,target-os-linux-64",
+            "package_uoa": "",
+            "tags": "lib,opencl",
+            "version": ""
+          }
+        },
+        "git_iso_datetime_cut_revision": "20180302-e40997b",
+        "git_revision": "e40997b",
+        "name": "Arm Compute Library (OpenCL & Graph APIs)",
+        "package_tags": "64bits,arm,arm-compute-library,armcl,channel-stable,compiled-by-gcc,compiled-by-gcc-7.2.0,host-os-linux-64,lib,target-os-linux-64,v18,v18.03,v18.3,v18.3.0,vdefault,vgraph,vneon,vopencl",
+        "package_uoa": "402993b1d6c721e1",
+        "tags": "lib,armcl,vopencl,vgraph",
+        "version": "18.03-e40997b"
+      },
+      "opencl": {
+        "data_name": "OpenCL library",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "OpenCL library",
+        "package_tags": "64bits,host-os-linux-64,lib,opencl,target-os-linux-64",
+        "package_uoa": "",
+        "tags": "lib,opencl",
+        "version": ""
+      },
+      "weights": {
+        "data_name": "MobileNet weights",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "MobileNet weights (as NumPy arrays)",
+        "package_tags": "64bits,host-os-linux-64,mobilenet,npy,target-os-linux-64,v1,v1.1,v1.1.0,v1.1.0.224,weights",
+        "package_uoa": "3442b9a84abcbd4b",
+        "tags": "mobilenet,weights,npy",
+        "version": "1_1.0_224"
+      },
+      "xopenme": {
+        "data_name": "xOpenME run-time library",
+        "deps": {
+          "compiler": {
+            "data_name": "GNU C compiler",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "C++ compiler",
+            "package_tags": "64bits,compiler,gcc,host-os-linux-64,lang-c,lang-cpp,target-os-linux-64,v7,v7.2,v7.2.0",
+            "package_uoa": "",
+            "tags": "compiler,lang-cpp",
+            "version": "7.2.0"
+          }
+        },
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "xOpenME library",
+        "package_tags": "64bits,channel-stable,compiled-by-gcc,compiled-by-gcc-7.2.0,host-os-linux-64,lang-c,lang-cpp,lang-f77,lang-f90,lang-f95,lib,rtl,target-os-linux-64,v0,v0.3,xopenme",
+        "package_uoa": "0573487b8121d094",
+        "tags": "lib,xopenme",
+        "version": "0.3"
+      }
+    },
+    "farm": "",
+    "gpgpu_name": "ARM Mali-T860",
+    "gpgpu_vendor": "ARM",
+    "gpu_name": "",
+    "host_os_uid": "4258b5fe54828a50",
+    "library_name": "ARM Compute Library (opencl) 18.03-e40997b (e40997b)",
+    "model_design_name": "MobileNet weights 1_1.0_224",
+    "model_precision": "fp32",
+    "model_species": "07d4e7aa3750ddc6",
+    "opencl": "OpenCL C 1.2 v1.r13p0-00rel0-git(a4271c9).31ba04af2d3c01618138bef3aed66c2c",
+    "os_name": "Ubuntu 16.04.4 LTS",
+    "os_uid": "",
+    "plat_name": "Rockchip (Rockchip RK3399 Firefly Board (Linux Opensource)\u0000)",
+    "plat_uid": "",
+    "platform_peak_power": 5.0,
+    "platform_price": 149,
+    "platform_price_date": "20180416",
+    "platform_species": "embedded",
+    "processed": "yes",
+    "repo_cmd": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl",
+    "repo_uid": "7698eaf859b79f2b",
+    "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
+    "report_uid": "08da9685582866a0",
+    "request_version": 1,
+    "scenario_module_uoa": "a555738be4b65860",
+    "stimestamp": "20180416102254",
+    "target_device_id": "",
+    "target_os_uid": "4258b5fe54828a50",
+    "timestamp": "2018-04-16T10:22:54"
+  },
+  "pipeline_uid": "b0ac08fe1d3c2615",
+  "pipeline_uoa": "program",
+  "points": "2",
+  "subview_uoa": "f84ca49f79a1446a",
+  "tags": [
+    "request",
+    "request-asplos18",
+    "2018-04-16T10:22:54",
+    "20180416102254",
+    "4b8bbc192ec57f63",
+    "performance",
+    "explore-mobilenets-performance",
+    "18.03-e40997b",
+    "firefly-rk3399",
+    "224",
+    "1.0"
+  ]
+}
