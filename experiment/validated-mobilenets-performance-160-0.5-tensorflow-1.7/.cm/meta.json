@@ -1,0 +1,227 @@
+{
+  "added": {
+    "engine": "CK",
+    "iso_datetime": "2018-04-13T01:03:34.111098",
+    "version": [
+      "1",
+      "9",
+      "4",
+      "1"
+    ]
+  },
+  "meta": {
+    "algorithm_species": "4b8bbc192ec57f63",
+    "artifact": "08da9685582866a0",
+    "cpu_abi": "",
+    "cpu_name": "0x41-8-0x0-0xd03-4 ; 0x41-8-0x0-0xd09-1",
+    "cpu_uid": "",
+    "dataset_size": 500,
+    "dataset_species": "ImageNet",
+    "deps_summary": {
+      "imagenet-aux": {
+        "data_name": "ImageNet dataset (aux)",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "ImageNet dataset (aux)",
+        "package_tags": "64bits,aux,caffe,channel-stable,dataset,host-os-linux-64,ilsvrc2012,imagenet,target-os-linux-64,v2012",
+        "package_uoa": "4e3e9dd897f125bb",
+        "tags": "dataset,imagenet,aux",
+        "version": "2012"
+      },
+      "imagenet-val": {
+        "data_name": "ImageNet dataset (validation)",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "ImageNet dataset (val)",
+        "package_tags": "64bits,caffe,channel-stable,dataset,host-os-linux-64,ilsvrc2012,ilsvrc2012min,imagenet,raw,small_dataset,target-os-linux-64,v2012,val",
+        "package_uoa": "60cb8b2218445c36",
+        "tags": "dataset,imagenet,raw,val",
+        "version": "2012"
+      },
+      "lib-tensorflow": {
+        "data_name": "TensorFlow library (from sources, cpu, xla)",
+        "deps": {
+          "bazel": {
+            "data_name": "bazel",
+            "deps": {
+              "env-msys2": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "MSYS2 env",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "env,msys2",
+                "version": ""
+              },
+              "java-compiler": {
+                "data_name": "java compiler",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "Java compiler",
+                "package_tags": "64bits,compiler,host-os-linux-64,java,lang-java,target-os-linux-64,v1,v1.8,v1.8.0,v1.8.0.151",
+                "package_uoa": "",
+                "tags": "compiler,lang-java",
+                "version": "1.8.0_151"
+              }
+            },
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Bazel tool",
+            "package_tags": "64bits,bazel,channel-stable,host-os-linux-64,target-os-linux-64,tool,v0,v0.11,v0.11.1",
+            "package_uoa": "1b43634cc2989a42",
+            "tags": "tool,bazel",
+            "version": "0.11.1"
+          },
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python interpreter",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v2,v2.7,v2.7.13",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "2.7.13"
+          }
+        },
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "TensorFlow library",
+        "package_tags": "64bits,bazel,channel-stable,host-os-linux-64,lib,needs-bazel,needs-bazel-0.11.1,target-os-linux-64,tensorflow,tensorflow-cpu,v1,v1.7,v1.7.0,vcpu,vsrc,vxla",
+        "package_uoa": "a1e54a7a823b4b5f",
+        "tags": "lib,tensorflow",
+        "version": "1.7"
+      },
+      "library": {
+        "data_name": "TensorFlow library (from sources, cpu)",
+        "deps": {
+          "bazel": {
+            "data_name": "bazel",
+            "deps": {
+              "env-msys2": {
+                "data_name": "",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "MSYS2 env",
+                "package_tags": "",
+                "package_uoa": "",
+                "tags": "env,msys2",
+                "version": ""
+              },
+              "java-compiler": {
+                "data_name": "java compiler",
+                "git_iso_datetime_cut_revision": "",
+                "git_revision": "",
+                "name": "Java compiler",
+                "package_tags": "64bits,compiler,host-os-linux-64,java,lang-java,target-os-linux-64,v1,v1.8,v1.8.0,v1.8.0.151",
+                "package_uoa": "",
+                "tags": "compiler,lang-java",
+                "version": "1.8.0_151"
+              }
+            },
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Bazel tool",
+            "package_tags": "64bits,bazel,channel-stable,host-os-linux-64,target-os-linux-64,tool,v0,v0.11,v0.11.1",
+            "package_uoa": "1b43634cc2989a42",
+            "tags": "tool,bazel",
+            "version": "0.11.1"
+          },
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python interpreter",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v2,v2.7,v2.7.13",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "2.7.13"
+          }
+        },
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "TensorFlow library",
+        "package_tags": "64bits,bazel,channel-stable,host-os-linux-64,lib,needs-bazel,needs-bazel-0.11.1,target-os-linux-64,tensorflow,tensorflow-cpu,v1,v1.7,v1.7.0,vcpu,vsrc",
+        "package_uoa": "d443fd4662890719",
+        "tags": "lib,tensorflow",
+        "version": "1.7"
+      },
+      "model-and-weights": {
+        "data_name": "TensorFlow python model and weights (squeezenet)",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "TensorFlow-Python model and weights",
+        "package_tags": "64bits,host-os-linux-64,python,squeezenet,target-os-linux-64,tensorflow-model,tensorflowmodel,v0,weights",
+        "package_uoa": "67dfc5ac2694ecb8",
+        "tags": "tensorflow-model,weights,python",
+        "version": "ImageNet"
+      },
+      "python": {
+        "data_name": "python",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "Python",
+        "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v2,v2.7,v2.7.13",
+        "package_uoa": "",
+        "tags": "compiler,python",
+        "version": "2.7.13"
+      },
+      "weights": {
+        "data_name": "TensorFlow python model and weights (mobilenet-0.50-160)",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "TensorFlow-Python model and weights",
+        "package_tags": "64bits,host-os-linux-64,mobilenet,mobilenet-v1,mobilenet-v1-0.50-160,python,target-os-linux-64,tensorflow-model,tensorflowmodel,v0,weights",
+        "package_uoa": "43e495623015e114",
+        "tags": "tensorflow-model,weights,python",
+        "version": "ImageNet"
+      }
+    },
+    "farm": "",
+    "gpgpu_name": "",
+    "gpgpu_vendor": "",
+    "gpu_name": "",
+    "host_os_uid": "4258b5fe54828a50",
+    "library_name": "TensorFlow library (from sources, cpu) 1.7",
+    "model_design_name": "TensorFlow python model and weights (mobilenet-0.50-160) ImageNet",
+    "model_precision": "fp32",
+    "model_species": "07d4e7aa3750ddc6",
+    "opencl": "",
+    "os_name": "Debian GNU/Linux 9 (stretch)",
+    "os_uid": "",
+    "plat_name": "HiKey960\u0000 (HiKey960\u0000)",
+    "plat_uid": "",
+    "platform_peak_power": 4.5,
+    "platform_price": 239,
+    "platform_price_date": "20170425",
+    "platform_species": "embedded",
+    "processed": "yes",
+    "repo_cmd": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl",
+    "repo_uid": "7698eaf859b79f2b",
+    "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
+    "report_uid": "08da9685582866a0",
+    "request_version": 1,
+    "scenario_module_uoa": "a555738be4b65860",
+    "stimestamp": "20180413005529",
+    "target_device_id": "",
+    "target_os_uid": "4258b5fe54828a50",
+    "timestamp": "2018-04-13T00:55:29"
+  },
+  "pipeline_uid": "b0ac08fe1d3c2615",
+  "pipeline_uoa": "program",
+  "points": "1",
+  "subview_uoa": "f84ca49f79a1446a",
+  "tags": [
+    "request",
+    "request-asplos18",
+    "2018-04-13T00:55:29",
+    "20180413005529",
+    "4b8bbc192ec57f63",
+    "performance",
+    "explore-mobilenets-performance",
+    "tensorflow-1.7",
+    "hikey-960",
+    "160",
+    "0.5"
+  ]
+}

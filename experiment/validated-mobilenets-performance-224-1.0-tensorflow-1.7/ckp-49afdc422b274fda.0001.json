@@ -1,0 +1,2676 @@
+{
+  "characteristics_list": [
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.381760653006287, 
+        "avg_time_ms": 87.8598690032959, 
+        "batch_size": 1, 
+        "execution_time": 6.65999698638916, 
+        "execution_time_with_module": 9.110383033752441, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5630002021789551, 
+        "net_create_time_s": 2.8974339962005615, 
+        "prediction_time_avg_s": 0.0878598690032959, 
+        "prediction_time_total_s": 0.0878598690032959, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5160.980939865112, 
+        "total_execution_time": 6.65999698638916, 
+        "total_time_ms": 87.8598690032959, 
+        "weights_load_time_s": 1.9226429462432861
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.679784354567428, 
+        "avg_time_ms": 85.6180191040039, 
+        "batch_size": 1, 
+        "execution_time": 6.6440441608428955, 
+        "execution_time_with_module": 9.081166982650757, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5614151954650879, 
+        "net_create_time_s": 2.8919858932495117, 
+        "prediction_time_avg_s": 0.0856180191040039, 
+        "prediction_time_total_s": 0.0856180191040039, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5147.773027420044, 
+        "total_execution_time": 6.6440441608428955, 
+        "total_time_ms": 85.6180191040039, 
+        "weights_load_time_s": 1.9291179180145264
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.438501375847803, 
+        "avg_time_ms": 87.42403984069824, 
+        "batch_size": 1, 
+        "execution_time": 6.662672996520996, 
+        "execution_time_with_module": 9.12497591972351, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5615091323852539, 
+        "net_create_time_s": 2.8926079273223877, 
+        "prediction_time_avg_s": 0.08742403984069824, 
+        "prediction_time_total_s": 0.08742403984069824, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5158.318996429443, 
+        "total_execution_time": 6.662672996520996, 
+        "total_time_ms": 87.42403984069824, 
+        "weights_load_time_s": 1.9416818618774414
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.714213824267954, 
+        "avg_time_ms": 93.33395957946777, 
+        "batch_size": 1, 
+        "execution_time": 6.682723045349121, 
+        "execution_time_with_module": 9.143341064453125, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5630719661712646, 
+        "net_create_time_s": 2.89752197265625, 
+        "prediction_time_avg_s": 0.09333395957946777, 
+        "prediction_time_total_s": 0.09333395957946777, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5187.041997909546, 
+        "total_execution_time": 6.682723045349121, 
+        "total_time_ms": 93.33395957946777, 
+        "weights_load_time_s": 1.9396440982818604
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.339021357123547, 
+        "avg_time_ms": 88.19103240966797, 
+        "batch_size": 1, 
+        "execution_time": 6.674836158752441, 
+        "execution_time_with_module": 9.130152940750122, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5631608963012695, 
+        "net_create_time_s": 2.8598451614379883, 
+        "prediction_time_avg_s": 0.08819103240966797, 
+        "prediction_time_total_s": 0.08819103240966797, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5171.289920806885, 
+        "total_execution_time": 6.674836158752441, 
+        "total_time_ms": 88.19103240966797, 
+        "weights_load_time_s": 1.9664909839630127
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 12.067647583480548, 
+        "avg_time_ms": 82.86619186401367, 
+        "batch_size": 1, 
+        "execution_time": 6.653903961181641, 
+        "execution_time_with_module": 9.108091831207275, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5623831748962402, 
+        "net_create_time_s": 2.873239040374756, 
+        "prediction_time_avg_s": 0.08286619186401367, 
+        "prediction_time_total_s": 0.08286619186401367, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5154.626846313477, 
+        "total_execution_time": 6.653903961181641, 
+        "total_time_ms": 82.86619186401367, 
+        "weights_load_time_s": 1.941051959991455
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.312231643903596, 
+        "avg_time_ms": 88.39988708496094, 
+        "batch_size": 1, 
+        "execution_time": 6.639636993408203, 
+        "execution_time_with_module": 9.118215084075928, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5629959106445312, 
+        "net_create_time_s": 2.8611690998077393, 
+        "prediction_time_avg_s": 0.08839988708496094, 
+        "prediction_time_total_s": 0.08839988708496094, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5122.9541301727295, 
+        "total_execution_time": 6.639636993408203, 
+        "total_time_ms": 88.39988708496094, 
+        "weights_load_time_s": 1.9279849529266357
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.743421752594061, 
+        "avg_time_ms": 85.15405654907227, 
+        "batch_size": 1, 
+        "execution_time": 6.653502941131592, 
+        "execution_time_with_module": 9.11666202545166, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5601849555969238, 
+        "net_create_time_s": 2.8543829917907715, 
+        "prediction_time_avg_s": 0.08515405654907227, 
+        "prediction_time_total_s": 0.08515405654907227, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5139.62984085083, 
+        "total_execution_time": 6.653502941131592, 
+        "total_time_ms": 85.15405654907227, 
+        "weights_load_time_s": 1.9467298984527588
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.92039158508644, 
+        "avg_time_ms": 91.57180786132812, 
+        "batch_size": 1, 
+        "execution_time": 6.6508660316467285, 
+        "execution_time_with_module": 9.084292888641357, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5627801418304443, 
+        "net_create_time_s": 2.8552019596099854, 
+        "prediction_time_avg_s": 0.09157180786132812, 
+        "prediction_time_total_s": 0.09157180786132812, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5153.055906295776, 
+        "total_execution_time": 6.6508660316467285, 
+        "total_time_ms": 91.57180786132812, 
+        "weights_load_time_s": 1.9328348636627197
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.611976578397309, 
+        "avg_time_ms": 86.11798286437988, 
+        "batch_size": 1, 
+        "execution_time": 6.699965953826904, 
+        "execution_time_with_module": 9.15402889251709, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5648670196533203, 
+        "net_create_time_s": 2.903202772140503, 
+        "prediction_time_avg_s": 0.08611798286437988, 
+        "prediction_time_total_s": 0.08611798286437988, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5192.605972290039, 
+        "total_execution_time": 6.699965953826904, 
+        "total_time_ms": 86.11798286437988, 
+        "weights_load_time_s": 1.9496028423309326
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.566035454364535, 
+        "avg_time_ms": 94.64287757873535, 
+        "batch_size": 1, 
+        "execution_time": 6.704356908798218, 
+        "execution_time_with_module": 9.149652004241943, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5623719692230225, 
+        "net_create_time_s": 2.886608839035034, 
+        "prediction_time_avg_s": 0.09464287757873535, 
+        "prediction_time_total_s": 0.09464287757873535, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5203.505992889404, 
+        "total_execution_time": 6.704356908798218, 
+        "total_time_ms": 94.64287757873535, 
+        "weights_load_time_s": 1.9258620738983154
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.868555846001454, 
+        "avg_time_ms": 101.33194923400879, 
+        "batch_size": 1, 
+        "execution_time": 6.669743776321411, 
+        "execution_time_with_module": 9.139775037765503, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5631451606750488, 
+        "net_create_time_s": 2.8971171379089355, 
+        "prediction_time_avg_s": 0.10133194923400879, 
+        "prediction_time_total_s": 0.10133194923400879, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5166.94188117981, 
+        "total_execution_time": 6.669743776321411, 
+        "total_time_ms": 101.33194923400879, 
+        "weights_load_time_s": 1.907623052597046
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.16805899664968, 
+        "avg_time_ms": 98.34718704223633, 
+        "batch_size": 1, 
+        "execution_time": 6.680269956588745, 
+        "execution_time_with_module": 9.148814916610718, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5617008209228516, 
+        "net_create_time_s": 2.9028050899505615, 
+        "prediction_time_avg_s": 0.09834718704223633, 
+        "prediction_time_total_s": 0.09834718704223633, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5182.731866836548, 
+        "total_execution_time": 6.680269956588745, 
+        "total_time_ms": 98.34718704223633, 
+        "weights_load_time_s": 1.9212031364440918
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.933970797934323, 
+        "avg_time_ms": 91.45808219909668, 
+        "batch_size": 1, 
+        "execution_time": 6.66182279586792, 
+        "execution_time_with_module": 9.11998200416565, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5658349990844727, 
+        "net_create_time_s": 2.88322114944458, 
+        "prediction_time_avg_s": 0.09145808219909668, 
+        "prediction_time_total_s": 0.09145808219909668, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5157.53698348999, 
+        "total_execution_time": 6.66182279586792, 
+        "total_time_ms": 91.45808219909668, 
+        "weights_load_time_s": 1.9134938716888428
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.145186102537807, 
+        "avg_time_ms": 98.56891632080078, 
+        "batch_size": 1, 
+        "execution_time": 6.65800404548645, 
+        "execution_time_with_module": 9.152698040008545, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5638771057128906, 
+        "net_create_time_s": 2.880941867828369, 
+        "prediction_time_avg_s": 0.09856891632080078, 
+        "prediction_time_total_s": 0.09856891632080078, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5159.335136413574, 
+        "total_execution_time": 6.65800404548645, 
+        "total_time_ms": 98.56891632080078, 
+        "weights_load_time_s": 1.929229974746704
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.669488593581473, 
+        "avg_time_ms": 93.72520446777344, 
+        "batch_size": 1, 
+        "execution_time": 6.640643119812012, 
+        "execution_time_with_module": 9.109065055847168, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5657808780670166, 
+        "net_create_time_s": 2.8445210456848145, 
+        "prediction_time_avg_s": 0.09372520446777344, 
+        "prediction_time_total_s": 0.09372520446777344, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5139.599800109863, 
+        "total_execution_time": 6.640643119812012, 
+        "total_time_ms": 93.72520446777344, 
+        "weights_load_time_s": 1.9490399360656738
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.066031645463294, 
+        "avg_time_ms": 99.34401512145996, 
+        "batch_size": 1, 
+        "execution_time": 6.627299070358276, 
+        "execution_time_with_module": 9.11211609840393, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5663819313049316, 
+        "net_create_time_s": 2.8592300415039062, 
+        "prediction_time_avg_s": 0.09934401512145996, 
+        "prediction_time_total_s": 0.09934401512145996, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5132.004022598267, 
+        "total_execution_time": 6.627299070358276, 
+        "total_time_ms": 99.34401512145996, 
+        "weights_load_time_s": 1.9159269332885742
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.937820104937048, 
+        "avg_time_ms": 91.42589569091797, 
+        "batch_size": 1, 
+        "execution_time": 6.681618928909302, 
+        "execution_time_with_module": 9.191922903060913, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5645098686218262, 
+        "net_create_time_s": 2.876703977584839, 
+        "prediction_time_avg_s": 0.09142589569091797, 
+        "prediction_time_total_s": 0.09142589569091797, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5169.378995895386, 
+        "total_execution_time": 6.681618928909302, 
+        "total_time_ms": 91.42589569091797, 
+        "weights_load_time_s": 1.9335801601409912
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 8.959775786860803, 
+        "avg_time_ms": 111.60993576049805, 
+        "batch_size": 1, 
+        "execution_time": 6.6421918869018555, 
+        "execution_time_with_module": 9.140021085739136, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5609500408172607, 
+        "net_create_time_s": 2.8457977771759033, 
+        "prediction_time_avg_s": 0.11160993576049805, 
+        "prediction_time_total_s": 0.11160993576049805, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5137.23087310791, 
+        "total_execution_time": 6.6421918869018555, 
+        "total_time_ms": 111.60993576049805, 
+        "weights_load_time_s": 1.9264440536499023
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.311713004290803, 
+        "avg_time_ms": 88.40394020080566, 
+        "batch_size": 1, 
+        "execution_time": 6.647039890289307, 
+        "execution_time_with_module": 9.099647998809814, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5639500617980957, 
+        "net_create_time_s": 2.8584439754486084, 
+        "prediction_time_avg_s": 0.08840394020080566, 
+        "prediction_time_total_s": 0.08840394020080566, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5141.016006469727, 
+        "total_execution_time": 6.647039890289307, 
+        "total_time_ms": 88.40394020080566, 
+        "weights_load_time_s": 1.9310710430145264
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.471649452362941, 
+        "avg_time_ms": 95.49593925476074, 
+        "batch_size": 1, 
+        "execution_time": 6.652334928512573, 
+        "execution_time_with_module": 9.11303997039795, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5636429786682129, 
+        "net_create_time_s": 2.8885838985443115, 
+        "prediction_time_avg_s": 0.09549593925476074, 
+        "prediction_time_total_s": 0.09549593925476074, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5147.552967071533, 
+        "total_execution_time": 6.652334928512573, 
+        "total_time_ms": 95.49593925476074, 
+        "weights_load_time_s": 1.9186429977416992
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 7.226114117466667, 
+        "avg_time_ms": 138.38696479797363, 
+        "batch_size": 1, 
+        "execution_time": 6.734549045562744, 
+        "execution_time_with_module": 9.18746304512024, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5653131008148193, 
+        "net_create_time_s": 2.9041218757629395, 
+        "prediction_time_avg_s": 0.13838696479797363, 
+        "prediction_time_total_s": 0.13838696479797363, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5231.021165847778, 
+        "total_execution_time": 6.734549045562744, 
+        "total_time_ms": 138.38696479797363, 
+        "weights_load_time_s": 1.9282689094543457
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.876413584936973, 
+        "avg_time_ms": 91.94207191467285, 
+        "batch_size": 1, 
+        "execution_time": 6.6585609912872314, 
+        "execution_time_with_module": 9.118026971817017, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5645051002502441, 
+        "net_create_time_s": 2.8865771293640137, 
+        "prediction_time_avg_s": 0.09194207191467285, 
+        "prediction_time_total_s": 0.09194207191467285, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5151.829957962036, 
+        "total_execution_time": 6.6585609912872314, 
+        "total_time_ms": 91.94207191467285, 
+        "weights_load_time_s": 1.929703950881958
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.53996761104136, 
+        "avg_time_ms": 104.82215881347656, 
+        "batch_size": 1, 
+        "execution_time": 6.631279945373535, 
+        "execution_time_with_module": 9.109472036361694, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5640850067138672, 
+        "net_create_time_s": 2.871194839477539, 
+        "prediction_time_avg_s": 0.10482215881347656, 
+        "prediction_time_total_s": 0.10482215881347656, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5132.985830307007, 
+        "total_execution_time": 6.631279945373535, 
+        "total_time_ms": 104.82215881347656, 
+        "weights_load_time_s": 1.9083960056304932
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 7.80644981173935, 
+        "avg_time_ms": 128.0992031097412, 
+        "batch_size": 1, 
+        "execution_time": 6.644364833831787, 
+        "execution_time_with_module": 9.114410161972046, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5639610290527344, 
+        "net_create_time_s": 2.869964122772217, 
+        "prediction_time_avg_s": 0.1280992031097412, 
+        "prediction_time_total_s": 0.1280992031097412, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5151.453018188477, 
+        "total_execution_time": 6.644364833831787, 
+        "total_time_ms": 128.0992031097412, 
+        "weights_load_time_s": 1.9094469547271729
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.992600198693957, 
+        "avg_time_ms": 100.07405281066895, 
+        "batch_size": 1, 
+        "execution_time": 6.621537923812866, 
+        "execution_time_with_module": 9.123094081878662, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5629210472106934, 
+        "net_create_time_s": 2.8673510551452637, 
+        "prediction_time_avg_s": 0.10007405281066895, 
+        "prediction_time_total_s": 0.10007405281066895, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5126.384973526001, 
+        "total_execution_time": 6.621537923812866, 
+        "total_time_ms": 100.07405281066895, 
+        "weights_load_time_s": 1.910768985748291
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.576998602599348, 
+        "avg_time_ms": 104.4168472290039, 
+        "batch_size": 1, 
+        "execution_time": 6.680154085159302, 
+        "execution_time_with_module": 9.16016697883606, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5637760162353516, 
+        "net_create_time_s": 2.8675711154937744, 
+        "prediction_time_avg_s": 0.1044168472290039, 
+        "prediction_time_total_s": 0.1044168472290039, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5181.0009479522705, 
+        "total_execution_time": 6.680154085159302, 
+        "total_time_ms": 104.4168472290039, 
+        "weights_load_time_s": 1.9577038288116455
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.848928296357522, 
+        "avg_time_ms": 101.53388977050781, 
+        "batch_size": 1, 
+        "execution_time": 6.640394926071167, 
+        "execution_time_with_module": 9.123615980148315, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5640630722045898, 
+        "net_create_time_s": 2.8593218326568604, 
+        "prediction_time_avg_s": 0.10153388977050781, 
+        "prediction_time_total_s": 0.10153388977050781, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5136.802911758423, 
+        "total_execution_time": 6.640394926071167, 
+        "total_time_ms": 101.53388977050781, 
+        "weights_load_time_s": 1.9065501689910889
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.650941535623907, 
+        "avg_time_ms": 85.8299732208252, 
+        "batch_size": 1, 
+        "execution_time": 6.640984058380127, 
+        "execution_time_with_module": 9.100275039672852, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5619089603424072, 
+        "net_create_time_s": 2.8511040210723877, 
+        "prediction_time_avg_s": 0.0858299732208252, 
+        "prediction_time_total_s": 0.0858299732208252, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5135.978937149048, 
+        "total_execution_time": 6.640984058380127, 
+        "total_time_ms": 85.8299732208252, 
+        "weights_load_time_s": 1.916240930557251
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 11.03424471938903, 
+        "avg_time_ms": 90.62695503234863, 
+        "batch_size": 1, 
+        "execution_time": 6.623661994934082, 
+        "execution_time_with_module": 9.110355138778687, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5614719390869141, 
+        "net_create_time_s": 2.845811128616333, 
+        "prediction_time_avg_s": 0.09062695503234863, 
+        "prediction_time_total_s": 0.09062695503234863, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5123.276948928833, 
+        "total_execution_time": 6.623661994934082, 
+        "total_time_ms": 90.62695503234863, 
+        "weights_load_time_s": 1.9209048748016357
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 8.647371958485726, 
+        "avg_time_ms": 115.64207077026367, 
+        "batch_size": 1, 
+        "execution_time": 6.630249977111816, 
+        "execution_time_with_module": 9.122110843658447, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5647320747375488, 
+        "net_create_time_s": 2.840517997741699, 
+        "prediction_time_avg_s": 0.11564207077026367, 
+        "prediction_time_total_s": 0.11564207077026367, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5129.32014465332, 
+        "total_execution_time": 6.630249977111816, 
+        "total_time_ms": 115.64207077026367, 
+        "weights_load_time_s": 1.9124839305877686
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.212500329464685, 
+        "avg_time_ms": 108.54816436767578, 
+        "batch_size": 1, 
+        "execution_time": 6.668622970581055, 
+        "execution_time_with_module": 9.131479978561401, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5621829032897949, 
+        "net_create_time_s": 2.871762990951538, 
+        "prediction_time_avg_s": 0.10854816436767578, 
+        "prediction_time_total_s": 0.10854816436767578, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5151.020050048828, 
+        "total_execution_time": 6.668622970581055, 
+        "total_time_ms": 108.54816436767578, 
+        "weights_load_time_s": 1.916321039199829
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 7.5458701319262165, 
+        "avg_time_ms": 132.5228214263916, 
+        "batch_size": 1, 
+        "execution_time": 6.7032790184021, 
+        "execution_time_with_module": 9.185189008712769, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5626950263977051, 
+        "net_create_time_s": 2.8853747844696045, 
+        "prediction_time_avg_s": 0.1325228214263916, 
+        "prediction_time_total_s": 0.1325228214263916, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5181.8201541900635, 
+        "total_execution_time": 6.7032790184021, 
+        "total_time_ms": 132.5228214263916, 
+        "weights_load_time_s": 1.9063150882720947
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.271864340836794, 
+        "avg_time_ms": 107.85317420959473, 
+        "batch_size": 1, 
+        "execution_time": 6.666593790054321, 
+        "execution_time_with_module": 9.186924934387207, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5625178813934326, 
+        "net_create_time_s": 2.857633113861084, 
+        "prediction_time_avg_s": 0.10785317420959473, 
+        "prediction_time_total_s": 0.10785317420959473, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5151.415109634399, 
+        "total_execution_time": 6.666593790054321, 
+        "total_time_ms": 107.85317420959473, 
+        "weights_load_time_s": 1.920555830001831
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 10.144572660012141, 
+        "avg_time_ms": 98.57487678527832, 
+        "batch_size": 1, 
+        "execution_time": 6.577864170074463, 
+        "execution_time_with_module": 9.06310510635376, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5648431777954102, 
+        "net_create_time_s": 2.823573112487793, 
+        "prediction_time_avg_s": 0.09857487678527832, 
+        "prediction_time_total_s": 0.09857487678527832, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5066.90788269043, 
+        "total_execution_time": 6.577864170074463, 
+        "total_time_ms": 98.57487678527832, 
+        "weights_load_time_s": 1.891340970993042
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.951536634612419, 
+        "avg_time_ms": 100.48699378967285, 
+        "batch_size": 1, 
+        "execution_time": 6.703943967819214, 
+        "execution_time_with_module": 9.206666946411133, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5630810260772705, 
+        "net_create_time_s": 2.888185977935791, 
+        "prediction_time_avg_s": 0.10048699378967285, 
+        "prediction_time_total_s": 0.10048699378967285, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5181.037902832031, 
+        "total_execution_time": 6.703943967819214, 
+        "total_time_ms": 100.48699378967285, 
+        "weights_load_time_s": 1.9196369647979736
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.55219964791058, 
+        "avg_time_ms": 104.68792915344238, 
+        "batch_size": 1, 
+        "execution_time": 6.7052319049835205, 
+        "execution_time_with_module": 9.193609952926636, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5652599334716797, 
+        "net_create_time_s": 2.8924551010131836, 
+        "prediction_time_avg_s": 0.10468792915344238, 
+        "prediction_time_total_s": 0.10468792915344238, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5185.657024383545, 
+        "total_execution_time": 6.7052319049835205, 
+        "total_time_ms": 104.68792915344238, 
+        "weights_load_time_s": 1.9191508293151855
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.285308845862648, 
+        "avg_time_ms": 107.6970100402832, 
+        "batch_size": 1, 
+        "execution_time": 6.66159200668335, 
+        "execution_time_with_module": 9.151926040649414, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.582341194152832, 
+        "net_create_time_s": 2.871734857559204, 
+        "prediction_time_avg_s": 0.1076970100402832, 
+        "prediction_time_total_s": 0.1076970100402832, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5138.797998428345, 
+        "total_execution_time": 6.66159200668335, 
+        "total_time_ms": 107.6970100402832, 
+        "weights_load_time_s": 1.905107021331787
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.269057205871304, 
+        "avg_time_ms": 107.88583755493164, 
+        "batch_size": 1, 
+        "execution_time": 6.632416009902954, 
+        "execution_time_with_module": 9.108943939208984, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5756618976593018, 
+        "net_create_time_s": 2.8408799171447754, 
+        "prediction_time_avg_s": 0.10788583755493164, 
+        "prediction_time_total_s": 0.10788583755493164, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5120.135068893433, 
+        "total_execution_time": 6.632416009902954, 
+        "total_time_ms": 107.88583755493164, 
+        "weights_load_time_s": 1.9246790409088135
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 9.875759052711635, 
+        "avg_time_ms": 101.2580394744873, 
+        "batch_size": 1, 
+        "execution_time": 6.6109068393707275, 
+        "execution_time_with_module": 9.105515956878662, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5640408992767334, 
+        "net_create_time_s": 2.8241329193115234, 
+        "prediction_time_avg_s": 0.1012580394744873, 
+        "prediction_time_total_s": 0.1012580394744873, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5088.7720584869385, 
+        "total_execution_time": 6.6109068393707275, 
+        "total_time_ms": 101.2580394744873, 
+        "weights_load_time_s": 1.9110438823699951
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 8.651867009360831, 
+        "avg_time_ms": 115.58198928833008, 
+        "batch_size": 1, 
+        "execution_time": 6.657259941101074, 
+        "execution_time_with_module": 9.125763893127441, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5637109279632568, 
+        "net_create_time_s": 2.8344948291778564, 
+        "prediction_time_avg_s": 0.11558198928833008, 
+        "prediction_time_total_s": 0.11558198928833008, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5135.406970977783, 
+        "total_execution_time": 6.657259941101074, 
+        "total_time_ms": 115.58198928833008, 
+        "weights_load_time_s": 1.9174809455871582
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 7.9109600538675835, 
+        "avg_time_ms": 126.40690803527832, 
+        "batch_size": 1, 
+        "execution_time": 6.686665058135986, 
+        "execution_time_with_module": 9.157907009124756, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5631051063537598, 
+        "net_create_time_s": 2.863353967666626, 
+        "prediction_time_avg_s": 0.12640690803527832, 
+        "prediction_time_total_s": 0.12640690803527832, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5185.312986373901, 
+        "total_execution_time": 6.686665058135986, 
+        "total_time_ms": 126.40690803527832, 
+        "weights_load_time_s": 1.9267070293426514
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 7.465910992285428, 
+        "avg_time_ms": 133.9421272277832, 
+        "batch_size": 1, 
+        "execution_time": 6.698876142501831, 
+        "execution_time_with_module": 9.189172983169556, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5817129611968994, 
+        "net_create_time_s": 2.8735241889953613, 
+        "prediction_time_avg_s": 0.1339421272277832, 
+        "prediction_time_total_s": 0.1339421272277832, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5176.789999008179, 
+        "total_execution_time": 6.698876142501831, 
+        "total_time_ms": 133.9421272277832, 
+        "weights_load_time_s": 1.9074420928955078
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 8.27704992116257, 
+        "avg_time_ms": 120.81599235534668, 
+        "batch_size": 1, 
+        "execution_time": 6.645091772079468, 
+        "execution_time_with_module": 9.112059831619263, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5620739459991455, 
+        "net_create_time_s": 2.8825221061706543, 
+        "prediction_time_avg_s": 0.12081599235534668, 
+        "prediction_time_total_s": 0.12081599235534668, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5150.675058364868, 
+        "total_execution_time": 6.645091772079468, 
+        "total_time_ms": 120.81599235534668, 
+        "weights_load_time_s": 1.8977680206298828
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 7.965526998976369, 
+        "avg_time_ms": 125.54097175598145, 
+        "batch_size": 1, 
+        "execution_time": 6.679657936096191, 
+        "execution_time_with_module": 9.153163194656372, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5632438659667969, 
+        "net_create_time_s": 2.889943838119507, 
+        "prediction_time_avg_s": 0.12554097175598145, 
+        "prediction_time_total_s": 0.12554097175598145, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5176.731109619141, 
+        "total_execution_time": 6.679657936096191, 
+        "total_time_ms": 125.54097175598145, 
+        "weights_load_time_s": 1.9159190654754639
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 8.276559931645386, 
+        "avg_time_ms": 120.82314491271973, 
+        "batch_size": 1, 
+        "execution_time": 6.663846969604492, 
+        "execution_time_with_module": 9.127954006195068, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.563148021697998, 
+        "net_create_time_s": 2.8908989429473877, 
+        "prediction_time_avg_s": 0.12082314491271973, 
+        "prediction_time_total_s": 0.12082314491271973, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5159.534931182861, 
+        "total_execution_time": 6.663846969604492, 
+        "total_time_ms": 120.82314491271973, 
+        "weights_load_time_s": 1.8990411758422852
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 8.578098188994897, 
+        "avg_time_ms": 116.57595634460449, 
+        "batch_size": 1, 
+        "execution_time": 6.656438827514648, 
+        "execution_time_with_module": 9.110950946807861, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5634281635284424, 
+        "net_create_time_s": 2.893126964569092, 
+        "prediction_time_avg_s": 0.11657595634460449, 
+        "prediction_time_total_s": 0.11657595634460449, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5149.960994720459, 
+        "total_execution_time": 6.656438827514648, 
+        "total_time_ms": 116.57595634460449, 
+        "weights_load_time_s": 1.8990259170532227
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 8.366804108493266, 
+        "avg_time_ms": 119.51994895935059, 
+        "batch_size": 1, 
+        "execution_time": 6.696535110473633, 
+        "execution_time_with_module": 9.210108995437622, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5656118392944336, 
+        "net_create_time_s": 2.9044690132141113, 
+        "prediction_time_avg_s": 0.11951994895935059, 
+        "prediction_time_total_s": 0.11951994895935059, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5191.380023956299, 
+        "total_execution_time": 6.696535110473633, 
+        "total_time_ms": 119.51994895935059, 
+        "weights_load_time_s": 1.9161429405212402
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 6.826822225766863, 
+        "avg_time_ms": 146.48103713989258, 
+        "batch_size": 1, 
+        "execution_time": 6.703113079071045, 
+        "execution_time_with_module": 9.191450119018555, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5634641647338867, 
+        "net_create_time_s": 2.879899024963379, 
+        "prediction_time_avg_s": 0.14648103713989258, 
+        "prediction_time_total_s": 0.14648103713989258, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5195.407152175903, 
+        "total_execution_time": 6.703113079071045, 
+        "total_time_ms": 146.48103713989258, 
+        "weights_load_time_s": 1.9169080257415771
+      }
+    }, 
+    {
+      "run": {
+        "CK_BATCH_COUNT": 2, 
+        "CK_BATCH_SIZE": 1, 
+        "CK_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+        "CK_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+        "CK_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/tf-mobilenet-model.py", 
+        "CK_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-1.0-224-py/mobilenet_v1_1.0_224.ckpt", 
+        "accuracy_top1": 0.5, 
+        "accuracy_top5": 1.0, 
+        "avg_fps": 8.639232123914768, 
+        "avg_time_ms": 115.75102806091309, 
+        "batch_size": 1, 
+        "execution_time": 6.699545860290527, 
+        "execution_time_with_module": 9.1976900100708, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "yes", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 65, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 970, 
+            "class_topmost": 795, 
+            "file_name": "ILSVRC2012_val_00000002.JPEG"
+          }
+        ], 
+        "images_load_time_s": 0.5608820915222168, 
+        "net_create_time_s": 2.8590569496154785, 
+        "prediction_time_avg_s": 0.11575102806091309, 
+        "prediction_time_total_s": 0.11575102806091309, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "time_fw_ms": 5196.563005447388, 
+        "total_execution_time": 6.699545860290527, 
+        "total_time_ms": 115.75102806091309, 
+        "weights_load_time_s": 1.9635601043701172
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "classification-tensorflow", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CK_BATCHES_DIR": "../batches", 
+      "CK_BATCH_COUNT": 2, 
+      "CK_BATCH_LIST": "../batches", 
+      "CK_BATCH_SIZE": 1, 
+      "CK_CONVOLUTION_METHOD_HINT": 1, 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_DATASET_IMAGENET_VAL": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-val-min/", 
+      "CK_ENV_TENSORFLOW_MODEL_MOBILENET_MULTIPLIER": 1.0, 
+      "CK_ENV_TENSORFLOW_MODEL_MOBILENET_RESOLUTION": 224, 
+      "CK_GPU_FREQUENCY": "max", 
+      "CK_IMAGE_FILE": "", 
+      "CK_IMAGE_LIST": "../images", 
+      "CK_RESULTS_DIR": "predictions", 
+      "CK_SKIP_IMAGES": 0, 
+      "CK_TF_GPU_MEMORY_PERCENT": 33
+    }, 
+    "flags": "-O3", 
+    "gpu_freq": "max", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "no", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "", 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##choices#env#CK_BATCH_SIZE", 
+    "##choices#env#CK_CONVOLUTION_METHOD_HINT", 
+    "##choices#env#CK_ENV_TENSORFLOW_MODEL_MOBILENET_RESOLUTION", 
+    "##choices#env#CK_ENV_TENSORFLOW_MODEL_MOBILENET_MULTIPLIER"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [], 
+      "raw": "", 
+      "str": ""
+    }, 
+    "number_of_selected_compiler_flags": 0, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "1": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "2": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "3": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "4": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "5": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "6": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "7": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+        "current_freq": {
+          "0": 1844.0, 
+          "1": 1844.0, 
+          "2": 1844.0, 
+          "3": 1844.0, 
+          "4": 2362.0, 
+          "5": 2362.0, 
+          "6": 2362.0, 
+          "7": 2362.0
+        }, 
+        "max_freq": {
+          "0": 1844.0, 
+          "1": 1844.0, 
+          "2": 1844.0, 
+          "3": 1844.0, 
+          "4": 2362.0, 
+          "5": 2362.0, 
+          "6": 2362.0, 
+          "7": 2362.0
+        }, 
+        "name": "", 
+        "num_proc": "8", 
+        "sub_name": "", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0, 
+              0, 
+              0, 
+              0, 
+              1, 
+              1, 
+              1, 
+              1
+            ], 
+            "core_names": [
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "0"
+        }, 
+        "1": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "1"
+        }, 
+        "2": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "2"
+        }, 
+        "3": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "3"
+        }, 
+        "4": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "4"
+        }, 
+        "5": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "5", 
+            "5", 
+            "5", 
+            "5", 
+            "5"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "5"
+        }, 
+        "6": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "6", 
+            "6", 
+            "6", 
+            "6", 
+            "6"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "6"
+        }, 
+        "7": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "7", 
+            "7", 
+            "7", 
+            "7", 
+            "7"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "7"
+        }
+      }, 
+      "cpu_new_format": "yes", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "0"
+        }, 
+        {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "4"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "aarch64", 
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "Debian GNU/Linux 9 (stretch)", 
+        "name_long": "Linux-4.4.74-00216-g10816f6-aarch64-with-debian-9.4", 
+        "name_short": "Linux 4.4.74", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "HiKey960\u0000", 
+        "name": "HiKey960\u0000 (HiKey960\u0000)", 
+        "vendor": "HiKey960\u0000"
+      }, 
+      "platform_misc": {}
+    }, 
+    "statistical_repetitions": 50
+  }
+}

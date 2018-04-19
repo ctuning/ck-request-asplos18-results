@@ -1,0 +1,425 @@
+{
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "classification-tensorflow", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CK_BATCHES_DIR": "../batches", 
+      "CK_BATCH_COUNT": 2, 
+      "CK_BATCH_LIST": "../batches", 
+      "CK_BATCH_SIZE": 1, 
+      "CK_CONVOLUTION_METHOD_HINT": 1, 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_DATASET_IMAGENET_VAL": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-val-min/", 
+      "CK_ENV_TENSORFLOW_MODEL_MOBILENET_MULTIPLIER": 0.25, 
+      "CK_ENV_TENSORFLOW_MODEL_MOBILENET_RESOLUTION": 128, 
+      "CK_GPU_FREQUENCY": "max", 
+      "CK_IMAGE_FILE": "", 
+      "CK_IMAGE_LIST": "../images", 
+      "CK_RESULTS_DIR": "predictions", 
+      "CK_SKIP_IMAGES": 0, 
+      "CK_TF_GPU_MEMORY_PERCENT": 33
+    }, 
+    "flags": "-O3", 
+    "gpu_freq": "max", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "no", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "", 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##choices#env#CK_BATCH_SIZE", 
+    "##choices#env#CK_CONVOLUTION_METHOD_HINT", 
+    "##choices#env#CK_ENV_TENSORFLOW_MODEL_MOBILENET_RESOLUTION", 
+    "##choices#env#CK_ENV_TENSORFLOW_MODEL_MOBILENET_MULTIPLIER"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [], 
+      "raw": "", 
+      "str": ""
+    }, 
+    "number_of_selected_compiler_flags": 0, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "1": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "2": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "3": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "4": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "5": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "6": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "7": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+        "current_freq": {
+          "0": 1844.0, 
+          "1": 1844.0, 
+          "2": 1844.0, 
+          "3": 1844.0, 
+          "4": 2362.0, 
+          "5": 2362.0, 
+          "6": 2362.0, 
+          "7": 2362.0
+        }, 
+        "max_freq": {
+          "0": 1844.0, 
+          "1": 1844.0, 
+          "2": 1844.0, 
+          "3": 1844.0, 
+          "4": 2362.0, 
+          "5": 2362.0, 
+          "6": 2362.0, 
+          "7": 2362.0
+        }, 
+        "name": "", 
+        "num_proc": "8", 
+        "sub_name": "", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0, 
+              0, 
+              0, 
+              0, 
+              1, 
+              1, 
+              1, 
+              1
+            ], 
+            "core_names": [
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "0"
+        }, 
+        "1": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "1"
+        }, 
+        "2": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "2"
+        }, 
+        "3": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "3"
+        }, 
+        "4": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "4"
+        }, 
+        "5": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "5", 
+            "5", 
+            "5", 
+            "5", 
+            "5"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "5"
+        }, 
+        "6": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "6", 
+            "6", 
+            "6", 
+            "6", 
+            "6"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "6"
+        }, 
+        "7": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "7", 
+            "7", 
+            "7", 
+            "7", 
+            "7"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "7"
+        }
+      }, 
+      "cpu_new_format": "yes", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "0"
+        }, 
+        {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "4"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "aarch64", 
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "Debian GNU/Linux 9 (stretch)", 
+        "name_long": "Linux-4.4.74-00216-g10816f6-aarch64-with-debian-9.4", 
+        "name_short": "Linux 4.4.74", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "HiKey960\u0000", 
+        "name": "HiKey960\u0000 (HiKey960\u0000)", 
+        "vendor": "HiKey960\u0000"
+      }, 
+      "platform_misc": {}
+    }, 
+    "statistical_repetitions": 50
+  }, 
+  "sub_points": 1
+}
