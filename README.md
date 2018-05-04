@@ -9,7 +9,7 @@ This repository contains validated results in the [CK format](https://github.com
 from the [ReQuEST@ASPLOS'18 tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
 on reproducible and SW/HW co-design of Pareto-efficient deep learning.
 
-You can see these results in the [ReQuEST scoreboard]().
+You can see these results in the [ReQuEST scoreboard](http://cKnowledge.org/request-results).
 
 <!-------------------------------------------------------------------------------------->
 # Validated submissions with shared CK artifacts and workflow
