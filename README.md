@@ -8,11 +8,10 @@
 This repository contains validated results in the [CK format](https://github.com/ctuning/ck)
 from the [ReQuEST@ASPLOS'18 tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
 on reproducible and SW/HW co-design of Pareto-efficient deep learning.
-
 You can see these results in the [ReQuEST scoreboard](http://cKnowledge.org/request-results).
 
 <!-------------------------------------------------------------------------------------->
-# Validated submissions with shared CK artifacts and workflow
+# Validated submissions with reusable Collective Knowledge workflows for image classification
 
 1. [Image classification using MXNet/TVM/NNVM on ARM GPU](https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm)
 2. [Image classification using ArmCL with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
