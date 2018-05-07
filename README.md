@@ -8,7 +8,7 @@
 This repository contains validated results in the [CK format](https://github.com/ctuning/ck)
 from the [ReQuEST@ASPLOS'18 tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
 on reproducible and SW/HW co-design of Pareto-efficient deep learning.
-You can see these results in the [ReQuEST scoreboard](http://cKnowledge.org/request-results).
+You can browse these results in the [live ReQuEST scoreboard](http://cKnowledge.org/request-results).
 
 <!-------------------------------------------------------------------------------------->
 # Validated submissions with reusable Collective Knowledge workflows for image classification
