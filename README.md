@@ -21,4 +21,4 @@ You can browse these results in the [live ReQuEST scoreboard](http://cKnowledge.
 <!-------------------------------------------------------------------------------------->
 # On-going evaluation for image classification
 
-2. [Image classification using farm of RPi and NVIDIA Jetson TX2](https://github.com/ctuning/ck-request-asplos18-iot-farm)
+1. [Image classification using TensorFlow and Apache Avro on IoT farms (5..11 Raspberry Pi 3 devices) vs NVIDIA Jetson TX2](https://github.com/ctuning/ck-request-asplos18-iot-farm)
