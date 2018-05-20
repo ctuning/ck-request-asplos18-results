@@ -1,0 +1,206 @@
+{
+  "characteristics_list": [
+    {
+      "run": {
+        "execution_time": 0.1748318923147101, 
+        "execution_time_classify": 0.1748318923147101, 
+        "execution_time_with_module": 5.4105589389801025, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 0.1748318923147101
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.18366663079512746, 
+        "execution_time_classify": 0.18366663079512746, 
+        "execution_time_with_module": 5.369876146316528, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 0.18366663079512746
+      }
+    }, 
+    {
+      "run": {
+        "execution_time": 0.19654015490883275, 
+        "execution_time_classify": 0.19654015490883275, 
+        "execution_time_with_module": 5.537834882736206, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "total_execution_time": 0.19654015490883275
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "benchmark-alexnet-farm-5-nodes", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "cpu_freq": "max", 
+    "data_uoa": "request-iot-benchmark", 
+    "dataset_file": "", 
+    "device_cfg": {
+      "access_type": "avro", 
+      "path_to_ck_target_entry": "/Users/jiashenc/CK/local/machine/farm-5", 
+      "remote_params": {
+        "avro_config": {
+          "node": {
+            "block1": [
+              "192.168.1.3"
+            ], 
+            "block2": [
+              "192.168.1.4", 
+              "192.168.1.6"
+            ], 
+            "block3": [
+              "192.168.1.8"
+            ], 
+            "initial": [
+              "192.168.1.2"
+            ]
+          }
+        }
+      }, 
+      "update_target_os_dict": {
+        "preset_host_env": {}, 
+        "skip_platform_detection": "yes"
+      }
+    }, 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_GPU_FREQUENCY": "max", 
+      "CK_TARGET_PATH": "/Users/jiashenc/CK/local/machine/farm-5"
+    }, 
+    "flags": "-O3", 
+    "gpu_freq": "max", 
+    "host_os": "macos-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "farm-5", 
+    "target_os": "macos-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [], 
+  "features": {
+    "compiler_version": {
+      "list": [], 
+      "raw": "", 
+      "str": ""
+    }, 
+    "number_of_selected_compiler_flags": 0, 
+    "platform": {
+      "cpu": {
+        "cpu_abi": "", 
+        "cpu_features": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clfsh ds acpi mmx fxsr sse sse2 ss htt tm pbe sse3 pclmulqdq dtes64 mon dscpl vmx est tm2 ssse3 fma cx16 tpr pdcm sse4.1 sse4.2 x2apic movbe popcnt aes pcid xsave osxsave seglim64 tsctmr avx1.0 rdrand f16c", 
+        "current_freq": {
+          "0": 2600
+        }, 
+        "max_freq": {
+          "0": 2600
+        }, 
+        "name": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz", 
+        "num_proc": "8", 
+        "sub_name": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz"
+      }, 
+      "cpu_misc": {
+        "hw.cpufrequency": "2600000000", 
+        "machdep.cpu.address_bits.physical": "39", 
+        "machdep.cpu.address_bits.virtual": "48", 
+        "machdep.cpu.arch_perf.events": "0", 
+        "machdep.cpu.arch_perf.events_number": "7", 
+        "machdep.cpu.arch_perf.fixed_number": "3", 
+        "machdep.cpu.arch_perf.fixed_width": "48", 
+        "machdep.cpu.arch_perf.number": "4", 
+        "machdep.cpu.arch_perf.version": "4", 
+        "machdep.cpu.arch_perf.width": "48", 
+        "machdep.cpu.brand": "0", 
+        "machdep.cpu.brand_string": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz", 
+        "machdep.cpu.cache.l2_associativity": "4", 
+        "machdep.cpu.cache.linesize": "64", 
+        "machdep.cpu.cache.size": "256", 
+        "machdep.cpu.core_count": "4", 
+        "machdep.cpu.cores_per_package": "8", 
+        "machdep.cpu.extfamily": "0", 
+        "machdep.cpu.extfeature_bits": "1241984796928", 
+        "machdep.cpu.extfeatures": "SYSCALL XD 1GBPAGE EM64T LAHF LZCNT PREFETCHW RDTSCP TSCI", 
+        "machdep.cpu.extmodel": "5", 
+        "machdep.cpu.family": "6", 
+        "machdep.cpu.feature_bits": "9221959987971750911", 
+        "machdep.cpu.features": "FPU VME DE PSE TSC MSR PAE MCE CX8 APIC SEP MTRR PGE MCA CMOV PAT PSE36 CLFSH DS ACPI MMX FXSR SSE SSE2 SS HTT TM PBE SSE3 PCLMULQDQ DTES64 MON DSCPL VMX EST TM2 SSSE3 FMA CX16 TPR PDCM SSE4.1 SSE4.2 x2APIC MOVBE POPCNT AES PCID XSAVE OSXSAVE SEGLIM64 TSCTMR AVX1.0 RDRAND F16C", 
+        "machdep.cpu.leaf7_feature_bits": "43806655", 
+        "machdep.cpu.leaf7_features": "SMEP ERMS RDWRFSGS TSC_THREAD_OFFSET BMI1 HLE AVX2 BMI2 INVPCID RTM SMAP RDSEED ADX IPT SGX FPU_CSDS MPX CLFSOPT", 
+        "machdep.cpu.logical_per_package": "16", 
+        "machdep.cpu.max_basic": "22", 
+        "machdep.cpu.max_ext": "2147483656", 
+        "machdep.cpu.microcode_version": "194", 
+        "machdep.cpu.model": "94", 
+        "machdep.cpu.mwait.extensions": "3", 
+        "machdep.cpu.mwait.linesize_max": "64", 
+        "machdep.cpu.mwait.linesize_min": "64", 
+        "machdep.cpu.mwait.sub_cstates": "286531872", 
+        "machdep.cpu.processor_flag": "5", 
+        "machdep.cpu.signature": "329443", 
+        "machdep.cpu.stepping": "3", 
+        "machdep.cpu.thermal.acnt_mcnt": "1", 
+        "machdep.cpu.thermal.core_power_limits": "1", 
+        "machdep.cpu.thermal.dynamic_acceleration": "1", 
+        "machdep.cpu.thermal.energy_policy": "1", 
+        "machdep.cpu.thermal.fine_grain_clock_mod": "1", 
+        "machdep.cpu.thermal.hardware_feedback": "0", 
+        "machdep.cpu.thermal.invariant_apic_timer": "1", 
+        "machdep.cpu.thermal.package_thermal_intr": "1", 
+        "machdep.cpu.thermal.sensor": "1", 
+        "machdep.cpu.thermal.thresholds": "2", 
+        "machdep.cpu.thread_count": "8", 
+        "machdep.cpu.tlb.data.small": "64", 
+        "machdep.cpu.tlb.data.small_level1": "64", 
+        "machdep.cpu.tlb.inst.large": "8", 
+        "machdep.cpu.tsc_ccc.denominator": "2", 
+        "machdep.cpu.tsc_ccc.numerator": "216", 
+        "machdep.cpu.vendor": "GenuineIntel", 
+        "machdep.cpu.xsave.extended_state": "31 832 1088 0", 
+        "machdep.cpu.xsave.extended_state1": "15 832 256 0"
+      }, 
+      "cpu_new_format": "", 
+      "cpu_unique": [
+        {
+          "ck_cpu_name": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz", 
+          "ck_cpu_subname": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz"
+        }
+      ], 
+      "gpu": {
+        "name": "Intel HD Graphics 530", 
+        "vendor": "Intel"
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "", 
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "macos-64", 
+        "name": "Mac OS X 10.13.4", 
+        "name_long": "Darwin-17.5.0-x86_64-i386-64bit", 
+        "name_short": "Darwin 17.5.0", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "MacBookPro13,3", 
+        "name": "MacBook Pro (MacBookPro13,3)", 
+        "vendor": "Apple Inc."
+      }, 
+      "platform_misc": {}
+    }, 
+    "statistical_repetitions": 3
+  }
+}

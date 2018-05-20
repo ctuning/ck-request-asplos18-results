@@ -1,0 +1,104 @@
+{
+  "added": {
+    "engine": "CK",
+    "iso_datetime": "2018-05-19T14:59:31.722444",
+    "version": [
+      "1",
+      "9",
+      "4",
+      "1"
+    ]
+  },
+  "meta": {
+    "algorithm_species": "f4f75a0a6b65e4cd",
+    "artifact": "640fb4c4b9ba9822",
+    "cpu_abi": "",
+    "cpu_name": "ARMv8 Processor rev 1 (v8l)",
+    "cpu_uid": "",
+    "deps_summary": {
+      "lib-keras": {
+        "data_name": "Keras API, TensorFlow based (prebuilt, ReQuEST@ASPLOS'18 artifact)",
+        "deps": {
+          "python": {
+            "data_name": "python",
+            "git_iso_datetime_cut_revision": "",
+            "git_revision": "",
+            "name": "Python",
+            "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v3,v3.5,v3.5.2",
+            "package_uoa": "",
+            "tags": "compiler,python",
+            "version": "3.5.2"
+          }
+        },
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "Keras library with ReQuEst artifact deps",
+        "package_tags": "64bits,channel-stable,host-os-linux-64,keras,keras-request,keras-tensorflow,lib,target-os-linux-64,v2,v2.1,v2.1.3,vpip,vprebuilt",
+        "package_uoa": "7d9b2235fb4840ad",
+        "tags": "lib,keras-request",
+        "version": "2.1.3"
+      },
+      "lib-tensorflow": {
+        "data_name": "TensorFlow library (from sources, cuda)",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "TensorFlow library",
+        "package_tags": "64bits,bazel,channel-stable,host-os-linux-64,lib,target-os-linux-64,tensorflow,tensorflow-cuda,v1,v1.5,v1.5.0,vcuda,vsrc",
+        "package_uoa": "7815f86e8ab7a368",
+        "tags": "lib,tensorflow",
+        "version": "1.5"
+      },
+      "python": {
+        "data_name": "python",
+        "git_iso_datetime_cut_revision": "",
+        "git_revision": "",
+        "name": "python",
+        "package_tags": "64bits,compiler,host-os-linux-64,lang-python,python,target-os-linux-64,v3,v3.5,v3.5.2",
+        "package_uoa": "",
+        "tags": "compiler,lang-python,python",
+        "version": "3.5.2"
+      }
+    },
+    "farm": "",
+    "gpgpu_name": "",
+    "gpgpu_vendor": "",
+    "gpu_name": "",
+    "host_os_uid": "4258b5fe54828a50",
+    "library_name": "TensorFlow library (from sources, cuda) 1.5",
+    "model_design_name": "AlexNet (authors' implementation)",
+    "model_precision": "fp32",
+    "model_species": "c0ad9b9800422f98",
+    "opencl": "",
+    "os_name": "Ubuntu 16.04.4 LTS",
+    "os_uid": "",
+    "plat_name": "NVIDIA Jetson TX1",
+    "plat_uid": "",
+    "platform_peak_power": 15,
+    "platform_price": 435,
+    "platform_price_date": "20180520",
+    "platform_species": "embedded",
+    "processed": "yes",
+    "repo_cmd": "ck pull repo:ck-request-asplos18-iot-farm",
+    "repo_uid": "9bb172637b2083c2",
+    "repo_uoa": "ck-request-asplos18-iot-farm",
+    "report_uid": "640fb4c4b9ba9822",
+    "request_version": 1,
+    "scenario_module_uoa": "a555738be4b65860",
+    "stimestamp": "20180519145847",
+    "target_device_id": "",
+    "target_os_uid": "4258b5fe54828a50",
+    "timestamp": "2018-05-19T14:58:47"
+  },
+  "pipeline_uid": "b0ac08fe1d3c2615",
+  "pipeline_uoa": "program",
+  "points": "1",
+  "subview_uoa": "f84ca49f79a1446a",
+  "tags": [
+    "request",
+    "request-asplos18",
+    "2018-05-19T14:58:47",
+    "20180519145847",
+    "4b8bbc192ec57f63",
+    "request-iot-benchmark"
+  ]
+}
