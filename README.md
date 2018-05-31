@@ -15,7 +15,7 @@ You can browse these results in the [live ReQuEST scoreboard](http://cKnowledge.
 
 1. [Image classification using Intel Caffe on Intel-based servers (AWS)](https://github.com/ctuning/ck-request-asplos18-caffe-intel)
 2. [Image classification using MXNet/TVM/NNVM on ARM GPU](https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm)
-3. [Image classification using ArmCL and TensorFlow with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
-4. [Image classification using TensorFlow and Apache Avro on IoT farms (5..11 Raspberry Pi 3 devices) vs NVIDIA Jetson TX2](https://github.com/ctuning/ck-request-asplos18-iot-farm)
-5. [Image classification using TVM on FPGA](https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga)
+3. [Image classification using TensorFlow and Apache Avro on IoT farms (5..11 Raspberry Pi 3 devices) vs NVIDIA Jetson TX2](https://github.com/ctuning/ck-request-asplos18-iot-farm)
+4. [Image classification using TVM on FPGA](https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga)
+5. [Image classification using ArmCL and TensorFlow with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
 
