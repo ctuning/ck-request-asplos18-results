@@ -13,21 +13,21 @@ You can browse these results in the [live ReQuEST scoreboard](http://cKnowledge.
 
 All above workflows implement image classification across a very diverse model/software/hardware stack:
 
-* *Models:* MobileNets, ResNet-18, ResNet-50, Inception-v3, VGG16, SSD and AlexNet.
-* *Data types:* 8-bit integer, 16-bit floating-point (half), 32-bit floating-point (float).
-* *AI frameworks and libraries:* MXNet, TensorFlow, Caffe, Keras, Arm Compute Library, cuDNN, TVM and NNVM.
-* *Platforms:* Xilinx Pynq-Z1 FPGA, Arm Cortex CPUs and Arm Mali GPGPUs (Linaro HiKey960 and T-Firefly RK3399), a farm of Raspberry Pi devices, NVIDIA Jetson TX2, and Intel Xeon servers in Amazon Web Services, Google Cloud and Microsoft Azure.
+* **Models:** MobileNets, ResNet-18, ResNet-50, Inception-v3, VGG16, SSD and AlexNet.
+* **Data types:** 8-bit integer, 16-bit floating-point (half), 32-bit floating-point (float).
+* **AI frameworks and libraries:** MXNet, TensorFlow, Caffe, Keras, Arm Compute Library, cuDNN, TVM and NNVM.
+* **Platforms:** Xilinx Pynq-Z1 FPGA, Arm Cortex CPUs and Arm Mali GPGPUs (Linaro HiKey960 and T-Firefly RK3399), a farm of Raspberry Pi devices, NVIDIA Jetson TX2, and Intel Xeon servers in Amazon Web Services, Google Cloud and Microsoft Azure.
 
 The reproduced results, available on the [ReQuEST scoreboard](http://cKnowledge.org/request-results), also exhibit amazing diversity:
-* *Latency:* 4 .. 500 ms
-* *Throughput:* 2 .. 465 images/sec
-* *Top 1 accuracy:* 41 .. 75 %
-* *Top 5 accuracy:* 65 .. 93 %
-* *Platform cost:* 40 .. 1200 $
-* *Device frequency:* 100 .. 2600 MHz
-* *Peak power consumption:* 2.5 .. 180 Watts
-* *Trained model size (weights):* 2 .. 130 MB
-* *Cloud usage cost per inference:* 2.6E-6 .. 9.5E-6 $
+* **Latency:** 4 .. 500 ms
+* **Throughput:** 2 .. 465 images/sec
+* **Top 1 accuracy:** 41 .. 75 %
+* **Top 5 accuracy:** 65 .. 93 %
+* **Platform cost:** 40 .. 1200 $
+* **Device frequency:** 100 .. 2600 MHz
+* **Peak power consumption:** 2.5 .. 180 Watts
+* **Trained model size (weights):** 2 .. 130 MB
+* **Cloud usage cost per inference:** 2.6E-6 .. 9.5E-6 $
 
 # Further discussions
 
