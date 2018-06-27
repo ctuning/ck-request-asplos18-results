@@ -10,7 +10,7 @@ on co-designing Pareto-efficient SW/HW stack for deep learning based inference (
 4. [Image classification using TVM on FPGA](https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga)
 5. [Image classification using ArmCL and TensorFlow with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
 
-You can see associated [ACM proceedings](https://doi.org/10.1145/3229762 ACM proceedings),
+You can see associated [ACM proceedings](https://github.com/ctuning/ck-request-asplos18-results),
 [Results report](https://portalparts.acm.org/3230000/3229762/fm/frontmatter.pdf)
 and [live ReQuEST scoreboard](http://cKnowledge.org/request-results).
 
