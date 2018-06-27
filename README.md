@@ -1,15 +1,18 @@
 [![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-powered-by-ck.png)](https://github.com/ctuning/ck)
 
 This repository contains validated workflows and results in the [open CK format](https://github.com/ctuning/ck)
-from the reproducible [ReQuEST@ASPLOS'18 tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
-on optimization and co-design of Pareto-efficient SW/HW stack for deep learning based inference (image classification).
-You can browse these results in the [live ReQuEST scoreboard](http://cKnowledge.org/request-results):
+from the 1st reproducible [ACM ReQuEST-ASPLOS'18 tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
+on co-designing Pareto-efficient SW/HW stack for deep learning based inference (image classification):
 
 1. [Image classification using Intel Caffe on Intel-based servers (AWS)](https://github.com/ctuning/ck-request-asplos18-caffe-intel)
 2. [Image classification using MXNet/TVM/NNVM on ARM GPU](https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm)
 3. [Image classification using TensorFlow and Apache Avro on IoT farms (5..11 Raspberry Pi 3 devices) vs NVIDIA Jetson TX2](https://github.com/ctuning/ck-request-asplos18-iot-farm)
 4. [Image classification using TVM on FPGA](https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga)
 5. [Image classification using ArmCL and TensorFlow with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
+
+You can see associated [ACM proceedings](https://doi.org/10.1145/3229762 ACM proceedings),
+[Results report](https://portalparts.acm.org/3230000/3229762/fm/frontmatter.pdf)
+and [live ReQuEST scoreboard](http://cKnowledge.org/request-results).
 
 All above workflows implement image classification across a very diverse model/software/hardware stack:
 
