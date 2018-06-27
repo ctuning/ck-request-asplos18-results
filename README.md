@@ -12,7 +12,7 @@ on co-designing Pareto-efficient SW/HW stack for deep learning based inference (
 
 You can see associated [results report](https://portalparts.acm.org/3230000/3229762/fm/frontmatter.pdf),
 [ACM proceedings](https://github.com/ctuning/ck-request-asplos18-results)
-and [live ReQuEST scoreboard](http://cKnowledge.org/request-results).
+and the [live ReQuEST scoreboard](http://cKnowledge.org/request-results).
 
 All above workflows implement image classification across a very diverse model/software/hardware stack:
 
