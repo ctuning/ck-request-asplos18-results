@@ -32,6 +32,15 @@ The reproduced results, available on the [ReQuEST scoreboard](http://cKnowledge.
 * **Trained model size (weights):** 2 .. 130 MB
 * **Cloud usage cost per inference:** 2.6E-6 .. 9.5E-6 $
 
+# Shared CK components 
+
+* [Shared CK programs (workflows)](http://cKnowledge.org/shared-programs.html)
+* [Reusable CK packages to automate installation of workflows across diverse platforms](http://cKnowledge.org/shared-packages.html)
+* [Reusable software detection plugins](http://cKnowledge.org/shared-soft-detection-plugins.html)
+* [Reusable CK modules (plugins)](http://cKnowledge.org/shared-modules.html)
+ * [Exposed CK kernel productivity functons](http://cKnowledge.org/ck-kernel-functions.html)
+* [Shared CK repositories with reusable workflows and artifacts](http://cKnowledge.org/shared-repos.html)
+
 # Further discussions
 
 * [Collective Knowledge mailing list](http://groups.google.com/group/collective-knowledge)
