@@ -4,7 +4,7 @@ This repository contains validated workflows and results in the [open CK format]
 from the 1st reproducible [ACM ReQuEST-ASPLOS'18 tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
 on co-designing Pareto-efficient SW/HW stack for deep learning based inference (image classification):
 
-1. [Image classification using Intel Caffe on Intel-based servers (AWS)](https://github.com/ctuning/ck-request-asplos18-caffe-intel)
+1. [Image classification using Intel Caffe on Intel-based servers (AWS)](https://github.com/ctuning/ck-request-asplos18-caffe-intel) ([paper DOI](https://dl.acm.org/citation.cfm?doid=3229762.3229763), [CK workflow snapshot DOI](https://doi.org/10.1145/3229769))
 2. [Image classification using MXNet/TVM/NNVM on ARM GPU](https://github.com/ctuning/ck-request-asplos18-mobilenets-tvm-arm)
 3. [Image classification using TensorFlow and Apache Avro on IoT farms (5..11 Raspberry Pi 3 devices) vs NVIDIA Jetson TX2](https://github.com/ctuning/ck-request-asplos18-iot-farm)
 4. [Image classification using TVM on FPGA](https://github.com/ctuning/ck-request-asplos18-resnet-tvm-fpga)
