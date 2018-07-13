@@ -11,7 +11,7 @@ on co-designing Pareto-efficient SW/HW stack for deep learning based inference (
 5. [Image classification using ArmCL and TensorFlow with OpenCL on HiKey 960](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl) ([paper DOI](https://doi.org/10.1145/3229762.3229767), [CK workflow snapshot DOI](https://doi.org/10.1145/3229773))
 
 You can see associated [results report](https://portalparts.acm.org/3230000/3229762/fm/frontmatter.pdf),
-[ACM proceedings](https://github.com/ctuning/ck-request-asplos18-results)
+[ACM proceedings](https://doi.org/10.1145/3229762)
 and the [live ReQuEST scoreboard](http://cKnowledge.org/request-results).
 
 All above workflows implement image classification across a very diverse model/software/hardware stack:
