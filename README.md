@@ -1,5 +1,5 @@
 [![compatibility](https://github.com/ctuning/ck-guide-images/blob/master/ck-compatible.svg)](https://github.com/ctuning/ck)
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
 This repository contains validated workflows and results in the [open CK format](https://github.com/ctuning/ck)
 from the 1st reproducible [ACM ReQuEST-ASPLOS'18 tournament](http://cknowledge.org/request-cfp-asplos2018.html) 
